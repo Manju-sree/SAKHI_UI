@@ -1,0 +1,28 @@
+.sakhi-sidebar {
+    overflow-y: auto;
+    position: sticky;
+    margin-left: 0rem;
+}
+
+.side-title {
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.sidebar-link {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.sidebar-link-item:hover {
+    color: var(--primary-color);
+}
+
+.sidebar-link-item>a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    font-size: larger;
+    padding: 0.6rem 3rem;
+    font-weight: 600;
+}

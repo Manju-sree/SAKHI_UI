@@ -1,0 +1,65 @@
+@import './sidebar.css';
+@import'./../CSS/navi.css';
+@import'./../Components/component.css';
+@import'./../index.css';
+.sakhi-component-container {
+    margin: auto 5rem;
+}
+
+.component-heading:hover {
+    color: var(--secondary-color);
+}
+
+.component-desc {
+    margin-top: 2rem;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.7rem;
+    font-size: larger;
+}
+
+.component-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: 1px solid var(--primary-hover);
+    align-items: baseline;
+    border-radius: 0.3rem;
+    width: 100%;
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    font-weight: 800;
+    position: relative;
+    font-size: 100%;
+}
+
+
+/* grid area */
+
+.docs-container {
+    display: grid;
+    height: 100vh;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    margin-bottom: 1.5rem;
+    grid-template-areas: "nav nav nav nav""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...";
+}
+
+nav {
+    grid-area: nav;
+}
+
+
+/* .sakhi-sidebar {
+    grid-area: sidebar;
+} */
+
+
+/* .avatar-component {
+    grid-area: main;
+} */

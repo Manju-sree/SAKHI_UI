@@ -1,0 +1,67 @@
+@import './../CSS/main.css';
+@import './../CSS/navi.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Supermercado+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #64d131;
+    --primary-hover: #0a2a2c;
+    --secondary-color: #f368c9;
+    --secondary-hover: #E5E7EB;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+.home-container {
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+}
+
+@media screen and (max-width: 1240px) {
+    .home-container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 25%;
+    }
+}

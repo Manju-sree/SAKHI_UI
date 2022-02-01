@@ -1,2 +1,2 @@
-# SAKHI_UI
- Neogcamp'22 - First project on component library
+# Sakhi_component_library
+ component library created in neogcamp 2022
