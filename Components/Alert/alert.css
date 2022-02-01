@@ -1,0 +1,35 @@
+        .alert-box {
+            border-radius: 0.3rem;
+            padding: 1rem 3rem 1rem 2rem;
+            margin: 1rem 0;
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+        
+        .primary {
+            background-color: #7FD2E6;
+            color: #29438b;
+        }
+        
+        .secondary {
+            background-color: #eaeaec;
+            color: #696b79;
+        }
+        
+        .success {
+            background-color: #84f1c9;
+            color: #1b7052;
+        }
+        
+        .Error {
+            color: #f1152b;
+            background-color: #f39d9d;
+        }
+        
+        .Warning {
+            color: #ff9204;
+            background-color: #f8c885;
+        }
