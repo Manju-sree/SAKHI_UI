@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="./badges.css">
+    <link rel="stylesheet" href="./../../documentation/docs.css">
+    <title>Sakhi UI</title>
+</head>
+
+<body>
+    <div class="docs-container">
+        <nav>
+            <div class="home-lt-nav">
+                <a href="./../../index.html" class="title">Sakhi</a>
+                <span class="small-title">a friendly tool to your designs...</span>
+            </div>
+            <ul class="home-rt-nav">
+                <li>
+                    <a href="./../../index.html">Home</a></li>
+                <li><a href="./../../documentation/docs.html ">Docs</a></li>
+            </ul>
+        </nav>
+        <!-- list of components -->
+
+        <aside>
+            <div class="sakhi-sidebar ">
+                <div>
+                    <h2 class="side-title ">Components</h2>
+                </div>
+                <ul class="sidebar-link ">
+                    <li class="sidebar-link-item "><a href="./../Avatar/avatar.html ">Avatar</a></li>
+                    <li class="sidebar-link-item "><a href="./../Alert/alert.html ">Alert</a></li>
+                    <li class="sidebar-link-item "><a href="./../Badge/badge.html ">Badge</a></li>
+                    <li class="sidebar-link-item "><a href="./../Button/button.html ">Button</a></li>
+                    <li class="sidebar-link-item "><a href="./../Card/card.html ">card</a></li>
+                    <li class="sidebar-link-item "><a href="./../Image/image.html ">Image</a></li>
+                    <li class="sidebar-link-item "><a href="./../Input/input.html ">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <!-- Badge component start from docs -->
+
+            <div class="sakhi-component-container ">
+                <h2 class="component-heading " id="badge ">Badges</h2>
+                <p class="component-desc "> Badges are indicators of static information. They can be updated when a status changes, but they should not be actionable. here are the 3 types of badges you can use, text with badge, button with badge and Icon with badge.
+                </p>
+                <br />
+                <br />
+                <h3>Badges on Icon</h3>
+                <div class="component-container ">
+                    <div class="flex-items ">
+                        <div class="Badge-type ">Text with a badge
+                            <span class="Badge-count txt-bdg">4</span>
+                        </div>
+                        <br />
+                        <!-- badge2-->
+                        <div class="Badge-type ">Text with large badge
+                            <span class="Badge-count txt-lr-bdg ">1</span>
+                        </div>
+                        <br />
+                        <!-- badge3-->
+                        <div class="Badge-type ">Button with a badge on the left
+                            <button class="badge-btn btn-left-bdg ">Action</button>
+                            <span class="Badge-count btn-bdg ">8</span>
+                        </div>
+                        <br />
+                        <!-- badge4-->
+                        <div class="Badge-type ">Button toggles badge visibility
+                            <button class="badge-btn btn-hide-bdg ">Hide</button>
+                            <span class="Badge-count hide-bdg">9</span>
+                        </div>
+                        <br />
+                        <!-- badge5 -->
+                        <div class="Badge-type ">Icon with a badge
+                            <span class="icon-badge ">
+                                <i class="fas fa-home home-icon"></i>
+                            </span>
+                            <span class="Badge-count icon-bdg-cnt">+15</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f9ad7e1e1df4001537947e" style="width: 100%; height: 463px;" frameborder="0"></iframe>
+                </div>
+                <br />
+                <hr>
+                <br />
+                <h3>Badges on Avatar</h3>
+                <div class="component-container flex-row-items">
+                    <div class="bdg-avatar avatar-sm-size ">
+                        <img loading="lazy " class="img-size img-round avatar-mobile" src="./../../Assets/images/avatar3.jpg " alt="avatar-badge ">
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                    <div class="bdg-avatar avatar-sm-size ">
+                        <img loading="lazy " class="img-size img-round avatar-busy" src="./../../Assets/images/avatar3.jpg " alt="avatar-badge ">
+                        <i class="fas fa-minus-circle"></i>
+                    </div>
+                    <div class="bdg-avatar avatar-sm-size ">
+                        <img loading="lazy " class="img-size img-round avatar-avail" src="./../../Assets/images/avatar3.jpg " alt="avatar-badge ">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.thiscodeworks.com/embed/61f9b7271e1df40015379480" style="width: 100%; height: 242px;" frameborder="0"></iframe>
+                </div>
+            </div>
+            <br />
+            <hr>
+            <br />
+
+        </main>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="./../Badge/index.js"></script>
+</body>
+
+</html>

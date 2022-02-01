@@ -1,0 +1,144 @@
+.Badge-type {
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #000000;
+}
+
+.Badge-count {
+    position: absolute;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #5858e4;
+    border-radius: 2rem;
+}
+
+.badge-btn {
+    position: relative;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+
+/* badge1:Text with a badge */
+
+.txt-bdg {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.65rem;
+    margin-top: -0.7rem;
+    margin-left: -0.5rem;
+}
+
+
+/* badge1:end */
+
+
+/* badge2:Text with large badge */
+
+.txt-lr-bdg {
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+    margin-top: -1.25rem;
+    margin-left: -1rem;
+}
+
+
+/* badge2:end */
+
+
+/* badge3:Button with a badge on the left */
+
+.btn-left-bdg {
+    background-color: #5858e4;
+    padding: 0.5rem 1.25rem;
+    color: #ffffff;
+}
+
+.btn-bdg {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.8rem;
+    background-color: #f70fb1;
+    margin-top: -1.5rem;
+    margin-left: -6rem;
+}
+
+
+/* badge3:end */
+
+
+/* badge4:Button toggles badge visibility */
+
+.btn-hide-bdg {
+    background-color: #f1ee1e;
+    padding: 0.625rem 0.9rem;
+    color: #000000;
+}
+
+.hide-bdg {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    margin-top: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* badge4:end */
+
+
+/* badge5:Icon with a badg */
+
+.icon-badge {
+    position: relative;
+}
+
+.home-icon {
+    font-size: 2rem;
+}
+
+.icon-bdg-cnt {
+    padding: 0.4rem 0.3rem;
+    font-size: 0.8rem;
+    background-color: #f02828;
+    margin-top: -0.9rem;
+    margin-left: -0.625rem;
+}
+
+
+/* badge5:end */
+
+
+/* Badge on Avatar */
+
+.avatar-mobile .avatar-busy .avatar-avail {
+    position: relative;
+}
+
+.fa-mobile {
+    color: #f30d79;
+    font-size: 2rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 5.1rem;
+}
+
+.fa-minus-circle {
+    color: #ff0000;
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 5.1rem;
+}
+
+.fa-circle {
+    color: #008000;
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 5.1rem;
+}
