@@ -1,0 +1,101 @@
+.button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: first baseline;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-solid {
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+}
+
+.secondary-button {
+    background-color: var(--secondary-color);
+}
+
+.primary-button-br {
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+}
+
+.secondary-button-br {
+    background-color: var(--secondary-color);
+    border-radius: 5rem;
+}
+
+.btn-outline {
+    background-color: #ffffff;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.primary-link-button {
+    border: 2px solid #000000;
+    color: #008000;
+    text-decoration: underline;
+}
+
+.secondary-link-button {
+    border: 2px solid #008000;
+    color: #000000;
+    padding: 15px 45px;
+    background-color: var(--secondary-hover);
+}
+
+.primary-button-with-icon {
+    background-color: var(--secondary-color);
+    padding: 15px 15px;
+    border-radius: 5rem;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.secondary-button-with-icon {
+    background-color: var(--primary-color);
+    padding: 8px 15px;
+    border-radius: 5rem;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+.float-btn {
+    padding: 5px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #000000;
+    font-size: xx-large;
+}
+
+.add-button {
+    background-color: var(--primary-color);
+}
+
+.go-up-button {
+    background-color: var(--secondary-color);
+}
+
+.remove-button {
+    background-color: #f75565;
+    padding-top: 1px;
+}
+
+.envelope-button {
+    background-color: rgb(69, 155, 236);
+    padding: 5px 10px;
+}
