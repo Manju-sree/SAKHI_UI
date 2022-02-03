@@ -1,11 +1,11 @@
-.Badge-type {
+.badge-type {
     position: relative;
     font-size: 1.25rem;
     font-weight: 900;
     color: #000000;
 }
 
-.Badge-count {
+.badge-count {
     position: absolute;
     font-weight: bolder;
     color: #ffffff;
@@ -119,12 +119,14 @@
     position: relative;
 }
 
-.fa-mobile {
+.fa-mobile-alt {
     color: #f30d79;
     font-size: 2rem;
     position: absolute;
     margin-top: -4rem;
     margin-left: 5.1rem;
+    background-color: #131212;
+    border-radius: 8rem;
 }
 
 .fa-minus-circle {
