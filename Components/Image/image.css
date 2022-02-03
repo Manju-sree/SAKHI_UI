@@ -17,3 +17,7 @@
   .align-center {
       justify-content: center;
   }
+  
+  .css-highlight {
+      color: rgb(250, 10, 122);
+  }
