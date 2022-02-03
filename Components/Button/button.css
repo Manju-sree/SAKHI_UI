@@ -13,6 +13,7 @@
     display: inline-block;
     font-size: 16px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-solid {
@@ -25,24 +26,32 @@
     background-color: var(--primary-color);
 }
 
-.secondary-button {
+.hover-button {
+    background-color: #f737bd;
+}
+
+.hover-button:hover {
     background-color: var(--secondary-color);
 }
 
-.primary-button-br {
-    background-color: var(--primary-color);
+.active-button {
+    background-color: #f75565;
     border-radius: 5rem;
 }
 
-.secondary-button-br {
+.disabled-button {
     background-color: var(--secondary-color);
     border-radius: 5rem;
+}
+
+.disabled-button:hover {
+    background-color: #ece3e9;
+    cursor: no-drop;
 }
 
 .btn-outline {
     background-color: #ffffff;
     padding: 15px 25px;
-    cursor: pointer;
 }
 
 .primary-link-button {
@@ -62,7 +71,6 @@
     background-color: var(--secondary-color);
     padding: 15px 15px;
     border-radius: 5rem;
-    cursor: pointer;
     border: 1px solid #000000;
 }
 
@@ -70,16 +78,20 @@
     background-color: var(--primary-color);
     padding: 8px 15px;
     border-radius: 5rem;
-    cursor: pointer;
     border: 2px solid #ffffff;
 }
 
 .float-btn {
     padding: 5px 15px;
     border-radius: 50%;
-    cursor: pointer;
     border: 1px solid #000000;
     font-size: xx-large;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #a3eb82;
 }
 
 .add-button {
@@ -90,12 +102,27 @@
     background-color: var(--secondary-color);
 }
 
+.go-up-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #e48dca;
+}
+
 .remove-button {
     background-color: #f75565;
     padding-top: 1px;
 }
 
+.remove-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #ec969f;
+}
+
 .envelope-button {
-    background-color: rgb(69, 155, 236);
+    background-color: #459bec;
     padding: 5px 10px;
+}
+
+.envelope-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #8cb3d8;
 }
