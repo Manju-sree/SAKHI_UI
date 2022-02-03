@@ -1,6 +1,6 @@
-const button2 = document.querySelector(".btn-hide-bdg ");
-const count4 = document.querySelector(".hide-bdg");
+const hide_btn = document.querySelector(".btn-hide-bdg ");
+const hide_count = document.querySelector(".hide-bdg");
 // span.classList.toggle("count5");
-button2.addEventListener("click", () => {
-    count4.classList.toggle("hide");
+hide_btn.addEventListener("click", () => {
+    hide_count.classList.toggle("hide");
 });
