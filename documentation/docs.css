@@ -23,19 +23,23 @@
     flex-wrap: wrap;
     padding: 1rem;
     margin: 2rem 0;
-    border: 1px solid var(--primary-hover);
+    border: 0.06rem solid var(--primary-hover);
     align-items: baseline;
     border-radius: 0.3rem;
     width: 100%;
 }
 
-.flex-items {
+.flex-col-items {
     display: flex;
     flex-direction: column;
+}
+
+.flex-row-items {
+    display: flex;
+    flex-direction: row;
     padding-left: 2rem;
-    font-weight: 800;
-    position: relative;
-    font-size: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
 
@@ -44,7 +48,7 @@
 .docs-container {
     display: grid;
     height: 100vh;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
     grid-template-columns: 1fr;
     margin-bottom: 1.5rem;
     grid-template-areas: "nav nav nav nav""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...";
@@ -53,13 +57,3 @@
 nav {
     grid-area: nav;
 }
-
-
-/* .sakhi-sidebar {
-    grid-area: sidebar;
-} */
-
-
-/* .avatar-component {
-    grid-area: main;
-} */

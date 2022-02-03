@@ -1,0 +1,128 @@
+.button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: first baseline;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-solid {
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+}
+
+.hover-button {
+    background-color: #f737bd;
+}
+
+.hover-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.active-button {
+    background-color: #f75565;
+    border-radius: 5rem;
+}
+
+.disabled-button {
+    background-color: var(--secondary-color);
+    border-radius: 5rem;
+}
+
+.disabled-button:hover {
+    background-color: #ece3e9;
+    cursor: no-drop;
+}
+
+.btn-outline {
+    background-color: #ffffff;
+    padding: 15px 25px;
+}
+
+.primary-link-button {
+    border: 2px solid #000000;
+    color: #008000;
+    text-decoration: underline;
+}
+
+.secondary-link-button {
+    border: 2px solid #008000;
+    color: #000000;
+    padding: 15px 45px;
+    background-color: var(--secondary-hover);
+}
+
+.primary-button-with-icon {
+    background-color: var(--secondary-color);
+    padding: 15px 15px;
+    border-radius: 5rem;
+    border: 1px solid #000000;
+}
+
+.secondary-button-with-icon {
+    background-color: var(--primary-color);
+    padding: 8px 15px;
+    border-radius: 5rem;
+    border: 2px solid #ffffff;
+}
+
+.float-btn {
+    padding: 5px 15px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #a3eb82;
+}
+
+.add-button {
+    background-color: var(--primary-color);
+}
+
+.go-up-button {
+    background-color: var(--secondary-color);
+}
+
+.go-up-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #e48dca;
+}
+
+.remove-button {
+    background-color: #f75565;
+    padding-top: 1px;
+}
+
+.remove-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #ec969f;
+}
+
+.envelope-button {
+    background-color: #459bec;
+    padding: 5px 10px;
+}
+
+.envelope-button:hover {
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    background-color: #8cb3d8;
+}
