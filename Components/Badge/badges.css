@@ -115,32 +115,51 @@
 
 /* Badge on Avatar */
 
-.avatar-mobile .avatar-busy .avatar-avail {
+.badge-parent {
     position: relative;
 }
 
+.round {
+    border-radius: 50%;
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+}
+
+.badge-child {
+    position: absolute;
+    top: 4.2rem;
+    left: 4.5rem;
+}
+
+.green-circle {
+    padding: 0.7rem;
+    border: 2px;
+    box-shadow: 0px 0px 0px 5px #f0f9ff;
+    background-color: #22c55e;
+}
+
+.fa-moon {
+    font-size: 1rem;
+    background-color: #f0f9ff;
+    box-shadow: 0px 0px 0px 5px #f0f9ff;
+    color: #f59e0b;
+}
+
 .fa-mobile-alt {
-    color: #f30d79;
-    font-size: 2rem;
-    position: absolute;
-    margin-top: -4rem;
-    margin-left: 5.1rem;
-    background-color: #131212;
-    border-radius: 8rem;
+    font-size: 1.5rem;
+    border: 2px;
+    border-radius: 0.2rem;
+    background-color: #f0f9ff;
+    box-shadow: 0px 0px 0px 3px #f0f9ff;
+    color: #22c55e;
 }
 
-.fa-minus-circle {
-    color: #ff0000;
-    font-size: 1.5rem;
-    position: absolute;
-    margin-top: -4rem;
-    margin-left: 5.1rem;
-}
-
-.fa-circle {
-    color: #008000;
-    font-size: 1.5rem;
-    position: absolute;
-    margin-top: -4rem;
-    margin-left: 5.1rem;
+.dnd-icon {
+    border-radius: 50%;
+    display: inline-block;
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: #f0f9ff;
+    box-shadow: 0px 0px 0px 2px #f0f9ff;
 }
