@@ -1,0 +1,75 @@
+.input-label {
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.input-label,
+.input-textbox {
+    display: inline-block;
+    width: 100%;
+}
+
+.input-textbox {
+    font-weight: bold;
+    border-radius: 0.4rem;
+    border: 2px solid #2e3333;
+    padding: 1rem;
+    color: var(--secondary-color);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+
+/* text validate style */
+
+.input-valid-textbox,
+.valid-text,
+.valid-msg {
+    color: #249c24;
+}
+
+.input-valid-textbox {
+    border: 1px solid #249c24;
+}
+
+.input-valid-textbox,
+.input-error-textbox {
+    font-weight: bold;
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+.valid-msg {
+    padding-left: 8rem;
+}
+
+
+/* text error style */
+
+.input-error-textbox,
+.error-text,
+.error-msg {
+    color: #d31d1d;
+}
+
+.input-error-textbox {
+    border: 1px solid #d31d1d;
+}
+
+.valid-msg,
+.error-msg {
+    margin-top: -2rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.error-msg {
+    padding-left: 14rem;
+}
