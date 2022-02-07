@@ -6,8 +6,9 @@
     margin: auto 5rem;
 }
 
-.component-heading:hover {
-    color: var(--secondary-color);
+.component-heading {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 .component-desc {
@@ -22,7 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 0.5rem 0 2rem 0;
     border: 0.06rem solid var(--primary-hover);
     align-items: baseline;
     border-radius: 0.3rem;
