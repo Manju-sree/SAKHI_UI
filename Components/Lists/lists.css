@@ -1,0 +1,47 @@
+.list-container {
+    border-radius: 0.3rem;
+    background-color: #f7f5f5;
+    padding: 1rem 2rem 1rem 2.5rem;
+}
+
+.styled-list {
+    margin-bottom: 1rem;
+}
+
+.styled-list li:not(:last-child) {
+    padding-bottom: 1rem;
+}
+
+.list-style-roman {
+    list-style: upper-roman;
+}
+
+.list-style-alpha {
+    list-style: upper-alpha;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+
+/* stacked list for notification */
+
+.stacked-list-container {
+    border-radius: 0.3rem;
+    background-color: #f7f5f5;
+    padding: 1rem 2rem 1rem 2.5rem;
+}
+
+.list-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 1.25rem 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
