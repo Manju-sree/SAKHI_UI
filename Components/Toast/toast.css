@@ -1,6 +1,12 @@
+:root {
+    --ligth-green-color: #70f764;
+    --ligth-red-color: #ec5752;
+    --light-yellow-color: #f8bb64;
+}
+
 .simple-toast-body {
     padding: 1rem;
-    background-color: #E5E7EB;
+    background-color: var(--secondary-hover);
     border-radius: 5px;
     color: black;
     font-size: 1rem;
@@ -9,15 +15,15 @@
 }
 
 .toast-success {
-    background-color: #70f764;
+    background-color: var(--ligth-green-color);
 }
 
 .toast-error {
-    background-color: #ec5752;
+    background-color: var(--ligth-red-color)
 }
 
 .toast-warning {
-    background-color: #f8bb64;
+    background-color: var(--light-yellow-color)
 }
 
 .retry-btn,
