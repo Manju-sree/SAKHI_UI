@@ -1,0 +1,88 @@
+.simple-toast-body {
+    padding: 1rem;
+    background-color: #E5E7EB;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    padding-right: 3rem;
+}
+
+.toast-success {
+    background-color: #70f764;
+}
+
+.toast-error {
+    background-color: #ec5752;
+}
+
+.toast-warning {
+    background-color: #f8bb64;
+}
+
+.retry-btn,
+.simple-toast-body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* example of toast */
+
+.toast-body {
+    position: relative;
+    display: flex;
+    padding: 18px 12px;
+    background-color: rgb(46, 43, 43);
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    justify-content: space-between;
+    box-shadow: 10px 12px 8px rgba(135, 26, 26, 0.25);
+}
+
+.toast-close-btn {
+    background: transparent url("./../../Assets/images/cancel.png") center/0.9em auto no-repeat;
+    border: 1px solid transparent;
+    position: absolute;
+    opacity: 0.5;
+    cursor: pointer;
+    padding: 0.9rem;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    color: black;
+    border-radius: 50%;
+}
+
+.toast-close-btn:hover {
+    background-color: rgb(216, 212, 212);
+}
+
+.retry-btn {
+    color: rgb(148, 92, 204);
+    font-weight: bold;
+    background-color: rgb(46, 43, 43);
+    border-style: none;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.retry:hover {
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.icon-toast {
+    margin-left: 0.6rem;
+    margin-top: -0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+
+.fa-times {
+    font-size: 1rem;
+}
+
+.icon-toast:hover {
+    background-color: rgb(77, 74, 74);
+}
