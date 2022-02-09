@@ -1,0 +1,39 @@
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.component-container-text {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0 2rem 0;
+    line-height: 2rem;
+    border: 0.06rem solid var(--primary-hover);
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-bold-weight {
+    font-weight: 700;
+}
+
+.text-color-grey {
+    color: #808080;
+}
