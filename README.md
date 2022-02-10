@@ -164,14 +164,14 @@ Find the following types of *Toasts* on https://sakhi-ui.netlify.app/components/
 - Error toast
 - Success toast
 - warning toast
-
+- 
 ---
+
 <div align="center">
 
 Have a look at the Website of Sakhi UI.
 
 </div>
----
 
 ![Sakhi ui gif](Assets/gifs/sakhi_ui_gif.gif)
 
