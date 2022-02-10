@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="sakhiui logo" src="./Assets/images/logo_UI.PNG" width="250px" height="150px" />
+<img alt="sakhiui logo" src="./Assets/images/logo_UI.PNG" width="250px" height="125px" />
 
 # SAKHI UI
 
