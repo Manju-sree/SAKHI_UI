@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="sakhiui logo" src="./Assets/images/logoUI.PNG" width="150px" height="150px" />
+<img alt="sakhiui logo" src="./Assets/images/logoUI.PNG" width="250px" height="150px" />
 
 # SAKHI UI
 
@@ -165,6 +165,12 @@ Find the following types of *Toasts* on https://sakhi-ui.netlify.app/components/
 - Success toast
 - warning toast
 
+---
+<div align="center">
+
+Have a look at the Website of Sakhi UI.
+
+</div>
 ---
 
 ![Sakhi ui gif](Assets/gifs/sakhi_ui_gif.gif)
