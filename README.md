@@ -1,10 +1,10 @@
 <div align="center">
 
-<img alt="sakhiui logo" src="./Assets/images/logoUI.PNG" width="150px" height="150px" />
+<img alt="sakhiui logo" src="./Assets/images/logoUI.PNG" width="250px" height="150px" />
 
 # SAKHI UI
 
-Sakhi is a CSS component library, which acts like a helping hand in building your projects with ease by providing you list of components which are ready to use and customize as per your taste.
+Sakhi UI is a CSS component library, which acts like a helping hand in building your projects with ease by providing you list of components which are ready to use and customize as per your taste.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cfb3dd3e-834f-46d8-9243-6dfe45980231/deploy-status)](https://app.netlify.com/sites/sakhi-ui/deploys)
 
@@ -14,7 +14,7 @@ Sakhi is a CSS component library, which acts like a helping hand in building you
 
 ## Installation Guide
 
-To start using the components in your project, Use CSS styles with ease, just by coping the link given below and paste it in the `<head>`  tag of your html file or import in css file.
+To start using the components in your project, Use CSS styles with ease, just by coping the link given below and paste it in the `<head>`  tag of your html file.
 
 ```html
     <link rel="stylesheet" href="https://sakhi-ui.netlify.app/Components/components.css">;
@@ -164,8 +164,13 @@ Find the following types of *Toasts* on https://sakhi-ui.netlify.app/components/
 - Error toast
 - Success toast
 - warning toast
-
 ---
+
+<div align="center">
+
+Have a look at the Website of Sakhi UI.
+
+</div>
 
 ![Sakhi ui gif](Assets/gifs/sakhi_ui_gif.gif)
 
