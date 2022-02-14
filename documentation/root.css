@@ -13,6 +13,14 @@
     --secondary-color: #f368c9;
     --secondary-hover: #E5E7EB;
     --light-gray: #4b5563;
+    --success-color: #1b7052;
+    --warning-color: #f8e964;
+    --warning-text-color: #ff9204;
+    --error-color: #f57a7a;
+    --error-text-color: #f1152b;
+    --ligth-green-color: #70f764;
+    --ligth-red-color: #ec5752;
+    --light-yellow-color: #f8bb64;
 }
 
 html {
