@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="/documentation/docs.css">
     <link rel="stylesheet" href="./../component.css">
-    <title>Sakhi UI</title>
+    <title>Card component | Sakhi UI</title>
 </head>
 
 <body>
@@ -18,247 +19,247 @@
                 <span class="small-title">a friendly tool to your designs...</span>
             </div>
             <ul class="home-rt-nav">
-                <li><a href="./../../index.html">Home</a></li>
-                <li><a href="./../../documentation/docs.html ">Docs</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/documentation/docs.html">Docs</a></li>
+                <li><a href="https://github.com/Manju-sree/SAKHI_UI"><i class="fab fa-github github-icon-sz"></i></a></li>
             </ul>
         </nav>
         <!-- list of components in CL-->
-
-        <aside>
-            <div class="sakhi-sidebar">
-                <div>
-                    <h2 class="side-title">Components</h2>
+        <div class="grid-col2">
+            <aside>
+                <div class="sakhi-sidebar">
+                    <div>
+                        <h2 class="side-title">Components</h2>
+                    </div>
+                    <ul class="sidebar-link">
+                        <li class="sidebar-link-item "><a href="./../Typography/Typography.html">Typography</a></li>
+                        <li class="sidebar-link-item "><a href="./../Avatar/avatar.html ">Avatar</a></li>
+                        <li class="sidebar-link-item "><a href="./../Alert/alert.html">Alert</a></li>
+                        <li class="sidebar-link-item "><a href="./../Badge/badge.html ">Badge</a></li>
+                        <li class="sidebar-link-item "><a href="./../Button/button.html ">Button</a></li>
+                        <li class="sidebar-link-item "><a href="./../Card/card.html ">Card</a></li>
+                        <li class="sidebar-link-item "><a href="./../Image/image.html ">Image</a></li>
+                        <li class="sidebar-link-item "><a href="./../Input/input.html ">Input</a></li>
+                        <li class="sidebar-link-item "><a href="./../Lists/lists.html ">Lists</a></li>
+                        <li class="sidebar-link-item "><a href="./../Toast/toast.html ">Toast</a></li>
+                    </ul>
                 </div>
-                <ul class="sidebar-link">
-                    <li class="sidebar-link-item "><a href="./../Typography/Typography.html">Typography</a></li>
-                    <li class="sidebar-link-item "><a href="./../Avatar/avatar.html ">Avatar</a></li>
-                    <li class="sidebar-link-item "><a href="./../Alert/alert.html">Alert</a></li>
-                    <li class="sidebar-link-item "><a href="./../Badge/badge.html ">Badge</a></li>
-                    <li class="sidebar-link-item "><a href="./../Button/button.html ">Button</a></li>
-                    <li class="sidebar-link-item "><a href="./../Card/card.html ">Card</a></li>
-                    <li class="sidebar-link-item "><a href="./../Image/image.html ">Image</a></li>
-                    <li class="sidebar-link-item "><a href="./../Input/input.html ">Input</a></li>
-                    <li class="sidebar-link-item "><a href="./../Lists/lists.html ">Lists</a></li>
-                    <li class="sidebar-link-item "><a href="./../Toast/toast.html ">Toast</a></li>
-                </ul>
-            </div>
-        </aside>
+            </aside>
 
-        <main>
-            <!-- Card component start from docs -->
+            <main>
+                <!-- Card component start from docs -->
 
-            <div class="sakhi-component-container">
-                <h1 class="component-heading" id="button">Card</h1>
-                <p class="component-desc"> Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable
-                    length.
-                </p>
-                <p class="component-desc">You can use them to display content on an e-commerce app, or on a video library app. You can also use them to show user feedback in the form of text-only card on your site.
-                </p>
-                <div class="title-align-center display-flex-row">
-                    <h2>Card with badge</h2>
-                    <h2>Card with dismiss</h2>
-                    <h2>and</h2>
-                    <h2>Card with text overlay</h2>
-                </div>
+                <div class="sakhi-component-container">
+                    <h1 class="component-heading" id="button">Card</h1>
+                    <p class="component-desc"> Cards are a convenient means of displaying content composed of different types of objects. They’re also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of
+                        variable length.
+                    </p>
+                    <p class="component-desc">You can use them to display content on an e-commerce app, or on a video library app. You can also use them to show user feedback in the form of text-only card on your site.
+                    </p>
+                    <div class="title-align-center display-flex-row">
+                        <h2>Card with badge</h2>
+                        <h2>Card with dismiss</h2>
+                        <h2>and</h2>
+                        <h2>Card with text overlay</h2>
+                    </div>
 
-                <div class="component-container">
-                    <!-- card with badge -->
-                    <div class="card-vertical card-container flex-items display-flex-column">
-                        <div class="image-container badge-container ">
-                            <img src="./../../Assets/images/card-img.jpg" alt="product-image" class="img-responsive card-img">
-                            <span class="badge-on-card">OFFER</span>
-                        </div>
-                        <div class="card-text-container flex-grow display-flex-column">
-                            <div class="text-container-title">
-                                <h6 class="product-title">Blush Duo Palette & BlendPro Blush Makeup Brush
-                                    <button class="like-btn link-no-style">
+                    <div class="component-container">
+                        <!-- card with badge -->
+                        <div class="card-vertical card-container flex-items display-flex-column">
+                            <div class="image-container badge-container ">
+                                <img src="./../../Assets/images/card-img.jpg" alt="product-image" class="img-responsive card-img">
+                                <span class="badge-on-card">OFFER</span>
+                            </div>
+                            <div class="card-text-container flex-grow display-flex-column">
+                                <div class="text-container-title">
+                                    <h6 class="product-title">Blush Duo Palette & BlendPro Blush Makeup Brush
+                                        <button class="like-btn link-no-style">
                                         <span><i class="fas fa-heart "></i></span>
                                     </button>
-                                </h6>
+                                    </h6>
 
-                            </div>
-                            <div class="text-container-desc  flex-grow display-flex-column">
-                                <span class="text-price-strike text-price-lighter"> Rs.1298</span>
-                                <p class="text-price-bold flex-grow">Rs.974
-                                    <span class="text-dicount text-price-lighter">| 25%</span>
-                                </p>
-                            </div>
-                            <div class="CTA-container">
-                                <button class="card-btn flex-items primary-color-btn">
+                                </div>
+                                <div class="text-container-desc  flex-grow display-flex-column">
+                                    <span class="text-price-strike text-price-lighter"> Rs.1298</span>
+                                    <p class="text-price-bold flex-grow">Rs.974
+                                        <span class="text-dicount text-price-lighter">| 25%</span>
+                                    </p>
+                                </div>
+                                <div class="CTA-container">
+                                    <button class="card-btn flex-items primary-color-btn">
                                     <i class="fas fa-shopping-cart btn-icon"></i>ADD TO BAG
                                 </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card with dismiss -->
+                        <div class="card-vertical  flex-items display-flex-column">
+                            <button type="button" class="btn-close"></button>
+                            <div class="image-container">
+                                <img src="./../../Assets/images/card-img.jpg" alt="product-image" class="img-responsive card-img">
+
+                            </div>
+                            <div class="card-text-container flex-grow display-flex-column">
+                                <div class="text-container-title">
+                                    <h6 class="product-title">Blush Duo Palette & BlendPro Blush Makeup Brush
+                                        <button class="like-btn link-no-style">
+                                        <span><i class="fas fa-heart "></i></span>
+                                    </button>
+                                    </h6>
+
+                                </div>
+                                <div class="text-container-desc  flex-grow display-flex-column">
+                                    <span class="text-price-strike text-price-lighter"> Rs.1298</span>
+                                    <p class="text-price-bold flex-grow">Rs.974
+                                        <span class="text-dicount text-price-lighter">| 25%</span>
+                                    </p>
+                                </div>
+                                <div class="CTA-container">
+                                    <button class="card-btn flex-items primary-color-btn">
+                                    <i class="fas fa-shopping-cart btn-icon"></i>ADD TO BAG
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card with text overlay -->
+
+                        <div class="card-vertical flex-grow display-flex-column overlay-container">
+                            <div class="image-container badge-container ">
+                                <img src="./../../Assets/images/card-img.jpg" alt="product-image" class="img-responsive card-img">
+                            </div>
+                            <div class="card-text-container flex-grow display-flex-column">
+                                <div class="text-container-title">
+                                    <h6 class="product-title">Blush Duo Palette & BlendPro Blush Makeup Brush
+                                        <button class="like-btn link-no-style">
+                                        <span><i class="fas fa-heart "></i></span>
+                                    </button>
+                                    </h6>
+
+                                </div>
+                                <div class="text-container-desc  flex-grow display-flex-column">
+                                    <span class="text-price-strike text-price-lighter"> Rs.1298</span>
+                                    <p class="text-price-bold flex-grow">Rs.974
+                                        <span class="text-dicount text-price-lighter">| 25%</span>
+                                    </p>
+                                </div>
+                                <div class="CTA-container">
+                                    <button class="card-btn flex-items primary-color-btn">
+                                    <i class="fas fa-shopping-cart btn-icon"></i>ADD TO BAG
+                                </button>
+                                </div>
+                            </div>
+                            <div class="text-overlay">
+                                <div class="text-overlay-size">Out Of Stock</div>
                             </div>
                         </div>
                     </div>
-                    <!-- card with dismiss -->
-                    <div class="card-vertical  flex-items display-flex-column">
-                        <button type="button" class="btn-close"></button>
-                        <div class="image-container">
-                            <img src="./../../Assets/images/card-img.jpg" alt="product-image" class="img-responsive card-img">
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/61fe7282bcdcda0015005924" style="width: 100%; height: 278px;overflow-y: auto;" frameborder="0"></iframe>
 
-                        </div>
-                        <div class="card-text-container flex-grow display-flex-column">
-                            <div class="text-container-title">
-                                <h6 class="product-title">Blush Duo Palette & BlendPro Blush Makeup Brush
-                                    <button class="like-btn link-no-style">
-                                        <span><i class="fas fa-heart "></i></span>
-                                    </button>
-                                </h6>
-
-                            </div>
-                            <div class="text-container-desc  flex-grow display-flex-column">
-                                <span class="text-price-strike text-price-lighter"> Rs.1298</span>
-                                <p class="text-price-bold flex-grow">Rs.974
-                                    <span class="text-dicount text-price-lighter">| 25%</span>
-                                </p>
-                            </div>
-                            <div class="CTA-container">
-                                <button class="card-btn flex-items primary-color-btn">
-                                    <i class="fas fa-shopping-cart btn-icon"></i>ADD TO BAG
-                                </button>
-                            </div>
-                        </div>
                     </div>
-                    <!-- card with text overlay -->
-
-                    <div class="card-vertical flex-grow display-flex-column overlay-container">
-                        <div class="image-container badge-container ">
-                            <img src="./../../Assets/images/card-img.jpg" alt="product-image" class="img-responsive card-img">
-                        </div>
-                        <div class="card-text-container flex-grow display-flex-column">
-                            <div class="text-container-title">
-                                <h6 class="product-title">Blush Duo Palette & BlendPro Blush Makeup Brush
-                                    <button class="like-btn link-no-style">
-                                        <span><i class="fas fa-heart "></i></span>
-                                    </button>
-                                </h6>
-
-                            </div>
-                            <div class="text-container-desc  flex-grow display-flex-column">
-                                <span class="text-price-strike text-price-lighter"> Rs.1298</span>
-                                <p class="text-price-bold flex-grow">Rs.974
-                                    <span class="text-dicount text-price-lighter">| 25%</span>
-                                </p>
-                            </div>
-                            <div class="CTA-container">
-                                <button class="card-btn flex-items primary-color-btn">
-                                    <i class="fas fa-shopping-cart btn-icon"></i>ADD TO BAG
-                                </button>
-                            </div>
-                        </div>
-                        <div class="text-overlay">
-                            <div class="text-overlay-size">Out Of Stock</div>
-                        </div>
+                    <!-- card with shadow -->
+                    <div class="title-align-center display-flex-row">
+                        <h2>Vertical Card with shadow</h2>
                     </div>
-                </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/61fe7282bcdcda0015005924" style="width: 100%; height: 278px;overflow-y: auto;" frameborder="0"></iframe>
-
-                </div>
-                <!-- card with shadow -->
-                <div class="title-align-center display-flex-row">
-                    <h2>Vertical Card with shadow</h2>
-                </div>
-                <div class=" component-container ">
-                    <div class="card-vertical card-shadow ">
-                        <div class="image-container badge-container ">
-                            <img src="./../../Assets/images/card-img.jpg " alt="product-image " class="img-responsive card-img ">
-                            <span class="badge-on-card ">OFFER</span>
-                        </div>
-                        <div class="card-text-container flex-grow display-flex-column ">
-                            <div class="text-container-title ">
-                                <h6 class="product-title ">Blush Duo Palette & BlendPro Blush Makeup Brush
-                                    <button class="like-btn link-no-style ">
+                    <div class=" component-container ">
+                        <div class="card-vertical card-shadow ">
+                            <div class="image-container badge-container ">
+                                <img src="./../../Assets/images/card-img.jpg " alt="product-image " class="img-responsive card-img ">
+                                <span class="badge-on-card ">OFFER</span>
+                            </div>
+                            <div class="card-text-container flex-grow display-flex-column ">
+                                <div class="text-container-title ">
+                                    <h6 class="product-title ">Blush Duo Palette & BlendPro Blush Makeup Brush
+                                        <button class="like-btn link-no-style ">
                                         <span><i class="fas fa-heart "></i></span>
                                     </button>
-                                </h6>
+                                    </h6>
 
-                            </div>
-                            <div class="text-container-desc flex-grow display-flex-column ">
-                                <span class="text-price-strike text-price-lighter "> Rs.1298</span>
-                                <p class="text-price-bold flex-grow ">Rs.974
-                                    <span class="text-dicount text-price-lighter ">| 25%</span>
-                                </p>
-                            </div>
-                            <div class="CTA-container ">
-                                <button class="card-btn flex-items primary-color-btn ">
+                                </div>
+                                <div class="text-container-desc flex-grow display-flex-column ">
+                                    <span class="text-price-strike text-price-lighter "> Rs.1298</span>
+                                    <p class="text-price-bold flex-grow ">Rs.974
+                                        <span class="text-dicount text-price-lighter ">| 25%</span>
+                                    </p>
+                                </div>
+                                <div class="CTA-container ">
+                                    <button class="card-btn flex-items primary-color-btn ">
                                     <i class="fas fa-shopping-cart btn-icon "></i>ADD TO BAG
                                 </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/61fe743fbcdcda0015005928" style="width: 100%; height: 237px;overflow-y: auto;" frameborder="0"></iframe>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/61fe743fbcdcda0015005928" style="width: 100%; height: 237px;overflow-y: auto;" frameborder="0"></iframe>
 
-                </div>
-                <!--  horizontal card -->
-                <div class="title-align-center display-flex-row ">
+                    </div>
+                    <!--  horizontal card -->
+                    <div class="title-align-center display-flex-row ">
 
-                    <h2>Horizontal card</h2>
+                        <h2>Horizontal card</h2>
 
-                </div>
-                <div class="component-container ">
-                    <div class="card-horizontal ">
-                        <div class="image-container card-width ">
-                            <img src="./../../Assets/images/card-img.jpg " alt="product-image " class="img-responsive card-img ">
-                        </div>
-                        <div class="card-text-container text-wrapper-width ">
-                            <div class="text-container-title ">
-                                <h6 class="product-title ">Blush Duo Palette & BlendPro Blush Makeup Brush
-                                    <button class="like-btn link-no-style ">
+                    </div>
+                    <div class="component-container ">
+                        <div class="card-horizontal ">
+                            <div class="image-container card-width ">
+                                <img src="./../../Assets/images/card-img.jpg " alt="product-image " class="img-responsive card-img ">
+                            </div>
+                            <div class="card-text-container text-wrapper-width ">
+                                <div class="text-container-title ">
+                                    <h6 class="product-title ">Blush Duo Palette & BlendPro Blush Makeup Brush
+                                        <button class="like-btn link-no-style ">
                                         <span><i class="fas fa-heart "></i></span>
                                     </button>
-                                </h6>
+                                    </h6>
 
-                            </div>
-                            <div class="text-container-desc ">
-                                <span class="text-price-strike text-price-lighter "> Rs.1298</span>
-                                <p class="text-price-bold flex-grow ">Rs.974
-                                    <span class="text-dicount text-price-lighter ">| 25%</span>
-                                </p>
-                            </div>
-                            <div class="CTA-container ">
-                                <button class="card-btn flex-items primary-color-btn ">
+                                </div>
+                                <div class="text-container-desc ">
+                                    <span class="text-price-strike text-price-lighter "> Rs.1298</span>
+                                    <p class="text-price-bold flex-grow ">Rs.974
+                                        <span class="text-dicount text-price-lighter ">| 25%</span>
+                                    </p>
+                                </div>
+                                <div class="CTA-container ">
+                                    <button class="card-btn flex-items primary-color-btn ">
                                     <i class="fas fa-shopping-cart btn-icon "></i>ADD TO BAG
                                 </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/61fe751ebcdcda001500592b" style="width: 100%; height: 224px;overflow-y: auto;" frameborder="0"></iframe>
+
+                    </div>
+                    <!-- card with text only-->
+                    <div class="title-align-center display-flex-row ">
+
+                        <h2>Text only card</h2>
+
+                    </div>
+                    <div class="component-container ">
+                        <div class="text-only-card">
+                            <span class="card-title">Card Title</span>
+                            <p class="card-desc">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            <div class="card-links">
+                                <a href="#">Like</a>
+                                <a href="#">Share</a>
                             </div>
                         </div>
                     </div>
 
                 </div>
                 <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/61fe751ebcdcda001500592b" style="width: 100%; height: 224px;overflow-y: auto;" frameborder="0"></iframe>
-
+                    <iframe src="https://www.thiscodeworks.com/embed/61fe71f9bcdcda0015005923" style="width: 90%; height: 207px; margin-left:4.5rem;" frameborder="0"></iframe>
                 </div>
-                <!-- card with text only-->
-                <div class="title-align-center display-flex-row ">
-
-                    <h2>Text only card</h2>
-
-                </div>
-                <div class="component-container ">
-                    <div class="text-only-card">
-                        <span class="card-title">Card Title</span>
-                        <p class="card-desc">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        <div class="card-links">
-                            <a href="#">Like</a>
-                            <a href="#">Share</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-                <iframe src="https://www.thiscodeworks.com/embed/61fe71f9bcdcda0015005923" style="width: 90%; height: 207px; margin-left:4.5rem;" frameborder="0"></iframe>
-            </div>
-
-
-            <br />
-            <hr>
-            <br />
-        </main>
-
+                <footer class="footer">
+                    <a href="/Components/Button/button.html" class="link">Button</a>
+                    <a href="/Components/Image/image.html" class="link">Image</a>
+                </footer>
+            </main>
+        </div>
     </div>
 
 </body>
