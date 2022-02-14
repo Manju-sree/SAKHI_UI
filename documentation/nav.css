@@ -2,8 +2,12 @@ nav {
     padding: 1.5rem 1rem;
     width: 100%;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
+    height: 5rem;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .home-lt-nav a {
@@ -12,13 +16,13 @@ nav {
 
 .small-title {
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 600;
     color: var(--secondary-color);
 }
 
 .title {
-    font-size: 2.6rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 400;
     color: var(--primary-color);
 }
 
@@ -33,7 +37,7 @@ nav {
 }
 
 .home-rt-nav a {
-    font-weight: 800;
+    font-weight: 400;
     color: rgb(39, 38, 38);
     text-decoration: none;
     cursor: pointer;
@@ -61,11 +65,11 @@ nav {
     }
     .small-title {
         display: flex;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 800;
     }
 }
 
-.fa-github {
+.github-icon-sz {
     font-size: 2rem;
 }

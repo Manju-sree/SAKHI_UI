@@ -1,9 +1,3 @@
-:root {
-    --ligth-green-color: #70f764;
-    --ligth-red-color: #ec5752;
-    --light-yellow-color: #f8bb64;
-}
-
 .simple-toast-body {
     padding: 1rem;
     background-color: var(--secondary-hover);

@@ -1,7 +1,6 @@
 .input-label {
     text-align: start;
-    font-size: 1.5rem;
-    font-weight: bolder;
+    font-size: 1.4rem;
     color: var(--primary-color);
 }
 
@@ -66,8 +65,7 @@
 .valid-msg,
 .error-msg {
     margin-top: -2rem;
-    font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .error-msg {

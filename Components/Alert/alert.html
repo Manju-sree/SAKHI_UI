@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="/documentation/docs.css">
     <link rel="stylesheet" href="./../component.css">
 
     <title> Alert component | Sakhi UI </title>
@@ -19,110 +20,112 @@
                 <span class="small-title">a friendly tool to your designs...</span>
             </div>
             <ul class="home-rt-nav">
-                <li>
-                    <a href="./../../index.html">Home</a></li>
-                <li><a href="./../../documentation/docs.html ">Docs</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/documentation/docs.html">Docs</a></li>
+                <li><a href="https://github.com/Manju-sree/SAKHI_UI"><i class="fab fa-github github-icon-sz"></i></a></li>
             </ul>
         </nav>
         <!-- list of components -->
+        <div class="grid-col2">
+            <aside>
+                <div class="sakhi-sidebar ">
+                    <div>
+                        <h2 class="side-title ">Components</h2>
+                    </div>
+                    <ul class="sidebar-link ">
+                        <li class="sidebar-link-item "><a href="./../Typography/Typography.html">Typography</a></li>
+                        <li class="sidebar-link-item "><a href="./../Avatar/avatar.html ">Avatar</a></li>
+                        <li class="sidebar-link-item "><a href="./../Alert/alert.html">Alert</a></li>
+                        <li class="sidebar-link-item "><a href="./../Badge/badge.html ">Badge</a></li>
+                        <li class="sidebar-link-item "><a href="./../Button/button.html ">Button</a></li>
+                        <li class="sidebar-link-item "><a href="./../Card/card.html ">Card</a></li>
+                        <li class="sidebar-link-item "><a href="./../Image/image.html ">Image</a></li>
+                        <li class="sidebar-link-item "><a href="./../Input/input.html ">Input</a></li>
+                        <li class="sidebar-link-item "><a href="./../Lists/lists.html">Lists</a></li>
+                        <li class="sidebar-link-item "><a href="./../Toast/toast.html">Toast</a></li>
+                    </ul>
+                </div>
+            </aside>
 
-        <aside>
-            <div class="sakhi-sidebar ">
-                <div>
-                    <h2 class="side-title ">Components</h2>
-                </div>
-                <ul class="sidebar-link ">
-                    <li class="sidebar-link-item "><a href="./../Typography/Typography.html">Typography</a></li>
-                    <li class="sidebar-link-item "><a href="./../Avatar/avatar.html ">Avatar</a></li>
-                    <li class="sidebar-link-item "><a href="./../Alert/alert.html">Alert</a></li>
-                    <li class="sidebar-link-item "><a href="./../Badge/badge.html ">Badge</a></li>
-                    <li class="sidebar-link-item "><a href="./../Button/button.html ">Button</a></li>
-                    <li class="sidebar-link-item "><a href="./../Card/card.html ">Card</a></li>
-                    <li class="sidebar-link-item "><a href="./../Image/image.html ">Image</a></li>
-                    <li class="sidebar-link-item "><a href="./../Input/input.html ">Input</a></li>
-                    <li class="sidebar-link-item "><a href="./../Lists/lists.html">Lists</a></li>
-                    <li class="sidebar-link-item "><a href="./../Toast/toast.html">Toast</a></li>
-                </ul>
-            </div>
-        </aside>
+            <main>
+                <!-- Alert component start from docs -->
+                <div class="sakhi-component-container ">
+                    <h2 class="component-heading " id="alert ">Alert</h2>
+                    <p class="component-desc "> An alert is used to grab user attention quickly for important message to display with sign or to remind about the caution that taking place in application. Alerts are available in 5 types- success alert, error alert, warning alert,
+                        primary alert, secondary alert.
+                    </p>
+                    <h3 class="component-heading ">Simple alerts without close button</h3>
+                    <div class="component-container ">
+                        <div class="primary alert-box ">
+                            Primary alert - check it out!
+                        </div>
+                        <div class="secondary alert-box ">
+                            secondary alert - check it out!
+                        </div>
+                        <div class="success alert-box ">
+                            success alert - check it out!
+                        </div>
+                        <div class="Warning alert-box ">
+                            warning alert - check it out!
+                        </div>
+                        <div class="Error alert-box ">
+                            Error alert - check it out!
+                        </div>
+                    </div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/62012b57ed723a001551bfc2" style="width: 100%; height: 194px;" frameborder="0"></iframe>
+                    </div>
+                    <h3 class="component-heading ">Alerts with icon and close button </h3>
 
-        <main>
-            <!-- Alert component start from docs -->
-            <div class="sakhi-component-container ">
-                <h2 class="component-heading " id="alert ">Alert</h2>
-                <p class="component-desc "> An alert is used to grab user attention quickly for important message to display with sign or to remind about the caution that taking place in application. Alerts are available in 5 types- success alert, error alert, warning alert, primary
-                    alert, secondary alert.
-                </p>
-                <h3 class="component-heading ">Simple alerts without close button</h3>
-                <div class="component-container ">
-                    <div class="primary alert-box ">
-                        <strong>Primary</strong> alert - check it out!
+                    <div class="component-container ">
+                        <div class="success alert-box ">
+                            <span><i class="fas fa-check-circle"></i></span> success alert with icon
+                            <button type="button" class="btn-close"></button>
+                        </div>
+                        <div class="Warning alert-box ">
+                            <span><i class="fas fa-exclamation-triangle"></i></span> warning alert with icon
+                            <span type="button" class="btn-close"></span>
+                        </div>
+                        <div class="Error alert-box ">
+                            <span><i class="fas fa-exclamation-circle "></i></span> Error alert with icon
+                            <button type="button" class="btn-close"></button>
+                        </div>
                     </div>
-                    <div class="secondary alert-box ">
-                        <strong>secondary</strong> alert - check it out!
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/62012beced723a001551bfc3" style="width: 100%; height: 142px;" frameborder="0"></iframe>
                     </div>
-                    <div class="success alert-box ">
-                        success alert - check it out!
+                    <h3 class="component-heading "> Example of Alert bar with close button </h3>
+                    <div class="component-container ">
+                        <div class="Warning alert-box " id="alert-example-close">
+                            <span><i class="fas fa-exclamation-triangle "></i></span> warning alert - check it out!
+                            <button type="button" class="btn-close" id="alert-example-close-btn"></button>
+                        </div>
                     </div>
-                    <div class="Warning alert-box ">
-                        warning alert - check it out!
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/62012d4bed723a001551bfc6" style="width: 100%; height: 194px;" frameborder="0"></iframe>
                     </div>
-                    <div class="Error alert-box ">
-                        Error alert - check it out!
+                    <h3 class="component-heading ">Alerts with outline and icon</h3>
+                    <div class="component-container ">
+                        <div class="success-outline alert-box-outline ">
+                            <span><i class="fas fa-check-circle "></i></span> success alert - check it out!
+                        </div>
+                        <div class="Warning-outline alert-box-outline ">
+                            <span><i class="fas fa-exclamation-triangle "></i></span> warning alert - check it out!
+                        </div>
+                        <div class="Error-outline alert-box-outline ">
+                            <span><i class="fas fa-exclamation-circle "></i></span> Error alert - check it out!
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/62012b57ed723a001551bfc2" style="width: 100%; height: 194px;" frameborder="0"></iframe>
-                </div>
-                <h3 class="component-heading ">Alerts with icon and close button </h3>
-
-                <div class="component-container ">
-                    <div class="success alert-box ">
-                        <span><i class="fas fa-check-circle "></i></span> success alert with icon
-                        <button type="button" class="btn-close"></button>
-                    </div>
-                    <div class="Warning alert-box ">
-                        <span><i class="fas fa-exclamation-triangle "></i></span> warning alert with icon
-                        <button type="button" class="btn-close"></button>
-                    </div>
-                    <div class="Error alert-box ">
-                        <span><i class="fas fa-exclamation-circle "></i></span> Error alert with icon
-                        <button type="button" class="btn-close"></button>
-                    </div>
-                </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/62012beced723a001551bfc3" style="width: 100%; height: 142px;" frameborder="0"></iframe>
-                </div>
-                <h3 class="component-heading "> Example of Alert bar with close button </h3>
-                <div class="component-container ">
-                    <div class="Warning alert-box " id="alert-example-close">
-                        <span><i class="fas fa-exclamation-triangle "></i></span> warning alert with icon - check it out!
-                        <button type="button" class="btn-close" id="alert-example-close-btn"></button>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/62012dcbed723a001551bfc7" style="width: 100%; height: 203px;" frameborder="0"></iframe>
                     </div>
                 </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/62012d4bed723a001551bfc6" style="width: 100%; height: 194px;" frameborder="0"></iframe>
-                </div>
-                <h3 class="component-heading ">Alerts with outline and icon</h3>
-                <div class="component-container ">
-                    <div class="success-outline alert-box-outline ">
-                        <span><i class="fas fa-check-circle "></i></span> success alert - check it out!
-                    </div>
-                    <div class="Warning-outline alert-box-outline ">
-                        <span><i class="fas fa-exclamation-triangle "></i></span> warning alert - check it out!
-                    </div>
-                    <div class="Error-outline alert-box-outline ">
-                        <span><i class="fas fa-exclamation-circle "></i></span> Error alert - check it out!
-                    </div>
-                </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/62012dcbed723a001551bfc7" style="width: 100%; height: 203px;" frameborder="0"></iframe>
-                </div>
-            </div>
-            <br/>
-            <hr>
-            <br/>
-        </main>
+                <footer class="footer">
+                    <a href="/Components/Avatar/avatar.html" class="link">Avatar</a>
+                    <a href="/Components/Badge/badge.html" class="link">Badge</a>
+                </footer>
+            </main>
+        </div>
     </div>
     </div>
     <script>

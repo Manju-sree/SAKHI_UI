@@ -1,11 +1,6 @@
+@import './nav.css';
+@import './root.css';
 @import './sidebar.css';
-@import'./../CSS/navi.css';
-@import'./../Components/component.css';
-@import'./../index.css';
-.sakhi-component-container {
-    margin: auto 5rem;
-}
-
 .component-heading {
     margin-top: 1rem;
     margin-bottom: 0rem;
@@ -47,15 +42,47 @@
 
 /* grid area */
 
+.grid-col2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.sakhi-component-container {
+    margin-top: 8rem;
+    position: static;
+    width: 100%
+}
+
 .docs-container {
     display: grid;
     height: 100vh;
     grid-gap: 1.25rem;
     grid-template-columns: 1fr;
     margin-bottom: 1.5rem;
-    grid-template-areas: "nav nav nav nav""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...";
+    grid-template-areas: "nav nav nav nav""aside   main   main  ...""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...";
 }
 
 nav {
     grid-area: nav;
+}
+
+
+/* footer */
+
+.footer {
+    border-top: 1px solid var(--light-gray);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.footer,
+.link {
+    text-decoration: none;
+    color: var(--light-gray);
+}
+
+.link:hover {
+    color: var(--primary-color);
 }
