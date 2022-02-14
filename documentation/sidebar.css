@@ -1,7 +1,11 @@
 .sakhi-sidebar {
     overflow-y: auto;
-    position: sticky;
+    position: fixed;
     margin-left: 0rem;
+    top: 7rem;
+    padding: 1rem;
+    height: 80vh;
+    width: 20%;
 }
 
 .side-title {
@@ -18,7 +22,7 @@
     color: var(--primary-color);
 }
 
-.sidebar-link-item>a {
+.sidebar-link-item a {
     text-decoration: none;
     display: block;
     color: inherit;

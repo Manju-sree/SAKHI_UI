@@ -16,13 +16,13 @@ nav {
 
 .small-title {
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 600;
     color: var(--secondary-color);
 }
 
 .title {
-    font-size: 2.6rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 400;
     color: var(--primary-color);
 }
 
@@ -37,7 +37,7 @@ nav {
 }
 
 .home-rt-nav a {
-    font-weight: 800;
+    font-weight: 400;
     color: rgb(39, 38, 38);
     text-decoration: none;
     cursor: pointer;
@@ -65,7 +65,7 @@ nav {
     }
     .small-title {
         display: flex;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 800;
     }
 }

@@ -12,6 +12,7 @@
     --primary-hover: #0c2f31;
     --secondary-color: #f368c9;
     --secondary-hover: #E5E7EB;
+    --light-gray: #4b5563;
 }
 
 html {
@@ -37,13 +38,26 @@ body {
     }
 }
 
+@media screen and (max-width: 990px) {
+    .home-container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .home-container {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
+    iframe {
+        display: none;
+    }
 }
+
+
+/* font size  */
 
 @media only screen and (max-width: 768px) {
     html {
