@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="/documentation/docs.css">
     <link rel="stylesheet" href="./../component.css">
 
     <title> List Component | Sakhi UI </title>
@@ -18,124 +20,127 @@
                 <span class="small-title">a friendly tool to your designs...</span>
             </div>
             <ul class="home-rt-nav">
-                <li>
-                    <a href="./../../index.html">Home</a></li>
-                <li><a href="./../../documentation/docs.html ">Docs</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/documentation/docs.html">Docs</a></li>
+                <li><a href="https://github.com/Manju-sree/SAKHI_UI"><i class="fab fa-github github-icon-sz"></i></a></li>
             </ul>
         </nav>
         <!-- list of components -->
-
-        <aside>
-            <div class="sakhi-sidebar ">
-                <div>
-                    <h2 class="side-title ">Components</h2>
-                </div>
-                <ul class="sidebar-link ">
-                    <li class="sidebar-link-item "><a href="./../Typography/Typography.html">Typography</a></li>
-                    <li class="sidebar-link-item "><a href="./../Avatar/avatar.html ">Avatar</a></li>
-                    <li class="sidebar-link-item "><a href="./../Alert/alert.html">Alert</a></li>
-                    <li class="sidebar-link-item "><a href="./../Badge/badge.html ">Badge</a></li>
-                    <li class="sidebar-link-item "><a href="./../Button/button.html ">Button</a></li>
-                    <li class="sidebar-link-item "><a href="./../Card/card.html ">Card</a></li>
-                    <li class="sidebar-link-item "><a href="./../Image/image.html ">Image</a></li>
-                    <li class="sidebar-link-item "><a href="./../Input/input.html ">Input</a></li>
-                    <li class="sidebar-link-item "><a href="./../Lists/lists.html">Lists</a></li>
-                    <li class="sidebar-link-item "><a href="./../Toast/toast.html">Toast</a></li>
-                </ul>
-            </div>
-        </aside>
-
-        <main>
-            <!-- Alert component start from docs -->
-            <div class="sakhi-component-container ">
-                <h2 class="component-heading ">Lists</h2>
-                <p class="component-desc "> A list is used to group related content in any component , where you can list items based on some order or no-order to it like un-ordered list.
-                </p>
-                <h3 class="component-desc">Types of Lists:- Ordered List ,un-ordered List ,reverse order list , list with bullets, no-bullets and more other styles given to a lists.</h3>
-                <p class="component-desc">Listing an items orderly using <strong class="css-highlight">ol</strong> html tag, and un-ordered list using<strong class="css-highlight"> ul</strong> html tag. To reverse the order of ordered list, add reversed attribute to <strong class="css-highlight">ol</strong>                    tag .
-                </p>
-
-                <div class="component-container">
-                    <!-- Orderer lists by default starts with number 1. -->
-                    <ol class="styled-list flex-items list-container">
-                        <li>Ordered List with numbers</li>
-                        <li>Ordered List with numbers</li>
-                        <li>Ordered List with numbers</li>
-                    </ol>
-                    <ol class="styled-list flex-items list-container list-style-roman">
-                        <li>Ordered List with roman-numbers</li>
-                        <li>Ordered List with roman-numbers</li>
-                        <li>Ordered List with roman-numbers</li>
-                    </ol>
-                    <ol class="styled-list flex-items list-container list-style-alpha">
-                        <li>Ordered List with alphabets</li>
-                        <li>Ordered List with alphabets</li>
-                        <li>Ordered List with alphabets</li>
-                    </ol>
-                    <ol class="styled-list flex-items list-container" reversed>
-                        <li>Reverse Ordered List</li>
-                        <li>Reverse Ordered List </li>
-                        <li>Reverse Ordered List </li>
-                    </ol>
-                    <!-- unordered list by default with list-style: disc;-->
-                    <ul class="styled-list flex-items list-container">
-                        <li>unordered List item1</li>
-                        <li>unordered List item2</li>
-                        <li>unordered List item3</li>
-                    </ul>
-                    <ul class="styled-list flex-items list-container list-style-none">
-                        <li>unordered List1 with no bullets</li>
-                        <li>unordered List2 with no bullets</li>
-                        <li>unordered List3 with no bullets</li>
+        <div class="grid-col2">
+            <aside>
+                <div class="sakhi-sidebar ">
+                    <div>
+                        <h2 class="side-title ">Components</h2>
+                    </div>
+                    <ul class="sidebar-link ">
+                        <li class="sidebar-link-item "><a href="./../Typography/Typography.html">Typography</a></li>
+                        <li class="sidebar-link-item "><a href="./../Avatar/avatar.html ">Avatar</a></li>
+                        <li class="sidebar-link-item "><a href="./../Alert/alert.html">Alert</a></li>
+                        <li class="sidebar-link-item "><a href="./../Badge/badge.html ">Badge</a></li>
+                        <li class="sidebar-link-item "><a href="./../Button/button.html ">Button</a></li>
+                        <li class="sidebar-link-item "><a href="./../Card/card.html ">Card</a></li>
+                        <li class="sidebar-link-item "><a href="./../Image/image.html ">Image</a></li>
+                        <li class="sidebar-link-item "><a href="./../Input/input.html ">Input</a></li>
+                        <li class="sidebar-link-item "><a href="./../Lists/lists.html">Lists</a></li>
+                        <li class="sidebar-link-item "><a href="./../Toast/toast.html">Toast</a></li>
                     </ul>
                 </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/62026bd5ed723a001551c20e" style="width: 100%; height: 215px;" frameborder="0"></iframe>
-                </div>
-                <h3 class="component-desc">Example of Notification Stacked List</h3>
-                <p class="component-desc ">Notification stacked list without bullets, add your desired components inside notification list using <strong class="css-highlight">li</strong> tag.</p>
-                <div class="component-container ">
-                    <ul class=" list-style-none styled-list">
-                        <li class="stacked-list-container">
-                            <div class="card-horizontal">
-                                <div class="card-text-container text-wrapper-width ">
-                                    <h6 class="product-title ">BIGGEST SAVIGS ALERT : BUY 2 AT Rs.199 EACH<br/>
-                                        <small>Rush to bag all your fave products NOW !</small>
-                                        <button class="list-btn primary-color-btn">SHOP NOW</button>
-                                    </h6>
+            </aside>
+
+            <main>
+                <!-- Alert component start from docs -->
+                <div class="sakhi-component-container ">
+                    <h2 class="component-heading ">Lists</h2>
+                    <p class="component-desc "> A list is used to group related content in any component , where you can list items based on some order or no-order to it like un-ordered list.
+                    </p>
+                    <h3 class="component-desc">Types of Lists:- Ordered List ,un-ordered List ,reverse order list , list with bullets, no-bullets and more other styles given to a lists.</h3>
+                    <p class="component-desc">Listing an items orderly using <strong class="css-highlight">ol</strong> html tag, and un-ordered list using<strong class="css-highlight"> ul</strong> html tag. To reverse the order of ordered list, add reversed attribute to
+                        <strong class="css-highlight">ol</strong> tag .
+                    </p>
+
+                    <div class="component-container">
+                        <!-- Orderer lists by default starts with number 1. -->
+                        <ol class="styled-list flex-items list-container">
+                            <li>Ordered List with numbers</li>
+                            <li>Ordered List with numbers</li>
+                            <li>Ordered List with numbers</li>
+                        </ol>
+                        <ol class="styled-list flex-items list-container list-style-roman">
+                            <li>Ordered List with roman-numbers</li>
+                            <li>Ordered List with roman-numbers</li>
+                            <li>Ordered List with roman-numbers</li>
+                        </ol>
+                        <ol class="styled-list flex-items list-container list-style-alpha">
+                            <li>Ordered List with alphabets</li>
+                            <li>Ordered List with alphabets</li>
+                            <li>Ordered List with alphabets</li>
+                        </ol>
+                        <ol class="styled-list flex-items list-container" reversed>
+                            <li>Reverse Ordered List</li>
+                            <li>Reverse Ordered List </li>
+                            <li>Reverse Ordered List </li>
+                        </ol>
+                        <!-- unordered list by default with list-style: disc;-->
+                        <ul class="styled-list flex-items list-container">
+                            <li>unordered List item1</li>
+                            <li>unordered List item2</li>
+                            <li>unordered List item3</li>
+                        </ul>
+                        <ul class="styled-list flex-items list-container list-style-none">
+                            <li>unordered List1 with no bullets</li>
+                            <li>unordered List2 with no bullets</li>
+                            <li>unordered List3 with no bullets</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/62026bd5ed723a001551c20e" style="width: 100%; height: 215px;" frameborder="0"></iframe>
+                    </div>
+                    <h3 class="component-desc">Example of Notification Stacked List</h3>
+                    <p class="component-desc ">Notification stacked list without bullets, add your desired components inside notification list using <strong class="css-highlight">li</strong> tag.</p>
+                    <div class="component-container ">
+                        <ul class=" list-style-none styled-list">
+                            <li class="stacked-list-container">
+                                <div class="card-horizontal">
+                                    <div class="card-text-container text-wrapper-width ">
+                                        <h6 class="product-title ">BIGGEST SAVIGS ALERT : BUY 2 AT Rs.199 EACH<br/>
+                                            <small>Rush to bag all your fave products NOW !</small>
+                                            <button class="list-btn primary-color-btn">SHOP NOW</button>
+                                        </h6>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="stacked-list-container">
-                            <div class="card-horizontal">
-                                <div class="card-text-container text-wrapper-width ">
-                                    <h6 class="product-title ">BIGGEST SAVIGS ALERT : BUY 3 AT Rs.299 EACH<br/>
-                                        <small>Rush to bag all your fave products NOW !</small>
-                                        <button class="list-btn primary-color-btn">SHOP NOW</button>
-                                    </h6>
+                            </li>
+                            <li class="stacked-list-container">
+                                <div class="card-horizontal">
+                                    <div class="card-text-container text-wrapper-width ">
+                                        <h6 class="product-title ">BIGGEST SAVIGS ALERT : BUY 3 AT Rs.299 EACH<br/>
+                                            <small>Rush to bag all your fave products NOW !</small>
+                                            <button class="list-btn primary-color-btn">SHOP NOW</button>
+                                        </h6>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="stacked-list-container">
-                            <div class="card-horizontal">
-                                <div class="card-text-container text-wrapper-width ">
-                                    <h6 class="product-title ">BIGGEST SAVIGS ALERT : BUY 4 AT Rs.399 EACH<br/>
-                                        <small>Rush to bag all your fave products NOW !</small>
-                                        <button class="list-btn primary-color-btn">SHOP NOW</button>
-                                    </h6>
+                            </li>
+                            <li class="stacked-list-container">
+                                <div class="card-horizontal">
+                                    <div class="card-text-container text-wrapper-width ">
+                                        <h6 class="product-title ">BIGGEST SAVIGS ALERT : BUY 4 AT Rs.399 EACH<br/>
+                                            <small>Rush to bag all your fave products NOW !</small>
+                                            <button class="list-btn primary-color-btn">SHOP NOW</button>
+                                        </h6>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/62029904234b8a0015700bc1" style="width: 100%; height: 552px;" frameborder="0"></iframe>
+                    </div>
                 </div>
-                <div>
-                    <iframe src="https://www.thiscodeworks.com/embed/62029904234b8a0015700bc1" style="width: 100%; height: 202px;" frameborder="0"></iframe>
-                </div>
-            </div>
-            <br/>
-            <hr>
-            <br/>
-        </main>
+                <footer class="footer">
+                    <a href="/Components/Input/input.html" class="link">Input</a>
+                    <a href="/Components/Toast/toast.html" class="link">Toast</a>
+                </footer>
+            </main>
+        </div>
     </div>
 </body>
 
