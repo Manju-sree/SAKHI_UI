@@ -5,6 +5,10 @@
         margin-left: 5rem;
     }
     
+    .pos-rel {
+        position: relative;
+    }
+    
     .title-align-center {
         margin-top: 2rem;
     }
@@ -13,9 +17,11 @@
     .card-vertical {
         max-width: 13rem;
         width: 100%;
-        position: relative;
-        box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
         margin: 1rem 1rem 0rem 1rem;
+    }
+    
+    .card-vertical-shadow {
+        box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
     }
     
     .image-container {
@@ -25,7 +31,6 @@
     }
     
     .badge-container {
-        position: relative;
         width: fit-content;
         box-sizing: border-box;
     }
@@ -72,7 +77,6 @@
     }
     
     .card-text-container .product-title {
-        position: relative;
         margin-right: 1.2rem;
         font-size: 1rem;
     }
@@ -86,7 +90,7 @@
         height: 1.2rem;
     }
     
-    .fa-heart {
+    .heart-pink {
         color: #fc547b;
     }
     
@@ -121,7 +125,7 @@
     }
     
     .text-dicount {
-        color: #ff3f6c;
+        color: var(--pink-color);
     }
     
     .CTA-Container .card-btn {
@@ -147,12 +151,12 @@
     }
     
     .primary-color-btn {
-        background-color: #ff3f6c;
+        background-color: var(--pink-color);
         color: white;
     }
     
     .primary-color-btn:hover {
-        background-color: #e63961;
+        background-color: var(--dark-pink-color);
     }
     
     .primary-color-btn .btn-icon {
@@ -219,9 +223,11 @@
         max-width: 500px;
         width: 100%;
         height: auto;
-        position: relative;
         display: flex;
         border-radius: .5rem;
+    }
+    
+    .card-horizontal-shadow {
         box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
     }
     
@@ -242,7 +248,6 @@
         width: 100%;
         height: auto;
         border-radius: .5rem;
-        box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
         margin: 2rem;
         padding: 2rem;
     }
@@ -265,6 +270,9 @@
         display: flex;
         gap: 2rem;
         font-size: 1rem;
-        color: blue;
-        font-weight: 800;
+        font-weight: 600;
+    }
+    
+    .card-links a {
+        text-decoration: none;
     }
