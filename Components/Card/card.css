@@ -91,7 +91,7 @@
     }
     
     .heart-pink {
-        color: #fc547b;
+        color: var(--light-pink-color);
     }
     
     .link-no-style {
