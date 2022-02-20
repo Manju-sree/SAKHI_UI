@@ -1,14 +1,22 @@
 .alert-box,
 .alert-box-outline {
     border-radius: 5px;
-    padding: 1rem;
-    margin: 1rem 0;
-    width: 30rem;
-    font-size: 1rem;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    width: 25rem;
+}
+
+.fa-times-circle {
+    margin-left: 9.9rem;
+    align-items: center;
+}
+
+.mr-lt {
+    margin-left: 1.5rem;
 }
 
 .alert-box {
-    position: relative;
+    text-align: start;
 }
 
 .primary-outline,
