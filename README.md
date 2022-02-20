@@ -172,6 +172,6 @@ Have a look at the Website of Sakhi UI.
 
 </div>
 
-![Sakhi ui gif](Assets/gifs/sakhi_ui_gif.gif)
+![Sakhi ui gif](Assets/gifs/sakhi_ui.gif)
 
 ---
