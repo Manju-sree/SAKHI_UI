@@ -19,7 +19,6 @@
     background-color: var(--light-yellow-color)
 }
 
-.retry-btn,
 .simple-toast-body {
     font-family: "Times New Roman", Times, serif;
 }
@@ -28,15 +27,10 @@
 /* example of toast */
 
 .toast-body {
-    position: relative;
-    display: flex;
-    padding: 18px 12px;
+    padding: 15px 10px;
     background-color: rgb(46, 43, 43);
     color: white;
-    border-radius: 0.3rem;
-    font-size: 1rem;
-    font-family: sans-serif;
-    justify-content: space-between;
+    border-radius: 5px;
     box-shadow: 10px 12px 8px rgba(135, 26, 26, 0.25);
 }
 
@@ -59,7 +53,7 @@
 
 .retry-btn {
     color: rgb(148, 92, 204);
-    font-weight: bold;
+    font-weight: 600;
     background-color: rgb(46, 43, 43);
     border-style: none;
     cursor: pointer;
@@ -71,15 +65,9 @@
 }
 
 .icon-toast {
-    margin-left: 0.6rem;
-    margin-top: -0.7rem;
     border-radius: 50%;
     cursor: pointer;
     padding: 0.3rem;
-}
-
-.fa-times {
-    font-size: 1rem;
 }
 
 .icon-toast:hover {
