@@ -24,10 +24,12 @@
 
 .primary-button {
     background-color: var(--primary-color);
+    border-radius: 5px;
 }
 
 .hover-button {
     background-color: #f737bd;
+    border-radius: 5px;
 }
 
 .hover-button:hover {
@@ -36,12 +38,12 @@
 
 .active-button {
     background-color: #f75565;
-    border-radius: 5rem;
+    border-radius: 5px;
 }
 
 .disabled-button {
     background-color: var(--secondary-color);
-    border-radius: 5rem;
+    border-radius: 5px;
 }
 
 .disabled-button:hover {
@@ -58,6 +60,7 @@
     border: 2px solid #000000;
     color: #008000;
     text-decoration: underline;
+    border-radius: 5px;
 }
 
 .secondary-link-button {
@@ -65,20 +68,21 @@
     color: #000000;
     padding: 15px 45px;
     background-color: var(--secondary-hover);
+    border-radius: 5px;
 }
 
 .primary-button-with-icon {
     background-color: var(--secondary-color);
     padding: 15px 15px;
-    border-radius: 5rem;
+    border-radius: 5px;
     border: 1px solid #000000;
 }
 
 .secondary-button-with-icon {
     background-color: var(--primary-color);
     padding: 8px 15px;
-    border-radius: 5rem;
-    border: 2px solid #ffffff;
+    border-radius: 5px;
+    border: 1px solid #000000;
 }
 
 .float-btn {
