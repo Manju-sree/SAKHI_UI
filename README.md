@@ -32,6 +32,8 @@ To start using the components in your project, Use CSS styles with ease, just by
 - [Input](#input)
 - [Lists](#lists)
 - [Toast](#toast)
+- [Navigation](#navigation)
+- [Slider](#slider)
 
 ---
 
@@ -164,6 +166,29 @@ Find the following types of *Toasts* on https://sakhi-ui.netlify.app/components/
 - Error toast
 - Success toast
 - warning toast
+
+---
+
+### Navigation
+
+A navigation bar is a user interface element within a webpage that contains links to other sections of the website.
+
+Find the following types of *Navigation* on https://sakhi-ui.netlify.app/components/navigation/navigation
+
+- Simple Desktop navigation bar
+- Mobile navigation bar with menu icon
+
+---
+
+### Slider
+
+Sliders are used to define a particular range whose exact value is not important.Sliders can be used to control the sound in video player or filter the price in E-commerce website
+
+Find the following types of *Slider* on https://sakhi-ui.netlify.app/components/slider/slider
+
+- Simple Slider
+- Slider with icon
+
 ---
 
 <div align="center">
