@@ -1,0 +1,6 @@
+.slider-container,
+input {
+    width: 25rem;
+    margin: 0 1rem;
+    display: flex;
+}
