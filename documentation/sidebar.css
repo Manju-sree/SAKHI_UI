@@ -1,10 +1,10 @@
 .sakhi-sidebar {
     overflow-y: auto;
     position: fixed;
-    margin-left: 0rem;
-    top: 7rem;
+    margin-left: 2.5rem;
+    top: 6rem;
     padding: 1rem;
-    height: 80vh;
+    height: 100vh;
     width: 20%;
 }
 
