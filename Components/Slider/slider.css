@@ -1,0 +1,29 @@
+.slider-container {
+    display: flex;
+    margin: 1rem 0rem;
+}
+
+.simple-slider,
+.slider {
+    width: 20rem;
+}
+
+.slider {
+    margin: 0 1rem;
+    background-color: var(--secondary-color);
+    border: solid 1px black;
+    border-radius: 8px;
+    height: 1rem;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: solid 1px black;
+    background: var(--primary-color);
+    cursor: pointer;
+}

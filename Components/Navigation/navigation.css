@@ -1,0 +1,26 @@
+.nav-container {
+    padding: 1.5rem 1rem;
+    width: 100%;
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: var(--white-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 0.5rem;
+}
+
+.wd-50-pc {
+    width: 50%;
+}
+
+
+/* menu in navigation */
+
+.menu-icon {
+    width: 1.75rem;
+    margin-left: 1rem;
+    display: block;
+    cursor: pointer;
+}

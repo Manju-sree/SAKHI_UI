@@ -19,5 +19,5 @@
   }
   
   .css-highlight {
-      color: #fa0a7a;
+      color: var(--secondary-color);
   }

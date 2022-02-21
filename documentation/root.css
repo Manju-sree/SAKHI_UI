@@ -24,6 +24,7 @@
     --pink-color: #ff3f6c;
     --light-pink-color: #ff6589;
     --dark-pink-color: #e63961;
+    --white-color: #fff;
 }
 
 html {
@@ -52,6 +53,9 @@ body {
         margin-right: 2rem;
         overflow-y: hidden;
     }
+    .sakhi-component-container {
+        margin-left: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 1055px) {
@@ -64,6 +68,9 @@ body {
     .home-container {
         width: 80%;
         margin: auto;
+    }
+    .sakhi-component-container {
+        margin-left: 1.5rem;
     }
 }
 
