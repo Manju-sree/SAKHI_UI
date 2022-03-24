@@ -1,0 +1,59 @@
+.modal-container {
+    width: 25rem;
+    height: 15rem;
+    border-style: none;
+    background-color: var(--lightest-pink-color);
+    box-shadow: 0 0 10px var(--light-gray);
+}
+
+.modal-content {
+    background-color: var(--lightest-pink-color);
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    height: 45vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.modal-container-demo {
+    display: none;
+    z-index: 6;
+    padding: 0 1rem;
+}
+
+.active {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-style {
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.modal-action {
+    display: flex;
+    justify-content: start;
+    padding: 10px 8px;
+}
+
+.modal-btn {
+    text-align: center;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    color: var(--white-color);
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
