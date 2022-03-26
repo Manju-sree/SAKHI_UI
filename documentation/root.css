@@ -15,6 +15,7 @@
     --light-gray: #4b5563;
     --success-color: #1b7052;
     --warning-color: #f8e964;
+    --dark-yellow-color: #f5dd08;
     --warning-text-color: #ff9204;
     --error-color: #f57a7a;
     --error-text-color: #f1152b;
@@ -23,8 +24,38 @@
     --light-yellow-color: #f8bb64;
     --pink-color: #ff3f6c;
     --light-pink-color: #ff6589;
+    --lightest-pink-color: #fcc0ce;
     --dark-pink-color: #e63961;
     --white-color: #fff;
+    --light-white-color: #f7f5f5;
+}
+
+.white-color-bg {
+    background-color: var( --light-white-color);
+}
+
+.ligth-red-bg {
+    background-color: var(--ligth-red-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.primary-color-bg {
+    background-color: var(--primary-color);
+}
+
+.pink-color {
+    color: var(--pink-color);
+}
+
+.yellow-color {
+    color: var(--dark-yellow-color);
+}
+
+.light-gray {
+    color: var(--light-gray);
 }
 
 html {
