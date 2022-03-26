@@ -9,7 +9,7 @@
 .modal-content {
     background-color: var(--lightest-pink-color);
     position: relative;
-    max-width: 600px;
+    max-width: 37.5rem;
     width: 100%;
     height: 45vh;
     padding: 2rem;
