@@ -1,6 +1,6 @@
 .modal-container {
     width: 25rem;
-    height: 15rem;
+    height: auto;
     border-style: none;
     background-color: var(--lightest-pink-color);
     box-shadow: 0 0 10px var(--light-gray);
