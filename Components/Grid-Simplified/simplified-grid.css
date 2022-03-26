@@ -1,0 +1,31 @@
+.common-grid-container {
+    display: grid;
+    gap: 10px;
+    height: 12rem;
+    width: 50rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-col-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.three-col-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.child-grids {
+    border: 1px solid;
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.multi-col-grid {
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+}
