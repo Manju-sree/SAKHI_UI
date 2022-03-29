@@ -46,6 +46,10 @@
     background-color: var(--primary-color);
 }
 
+.secondary-color-bg {
+    background-color: var(--secondary-color);
+}
+
 .pink-color {
     color: var(--pink-color);
 }

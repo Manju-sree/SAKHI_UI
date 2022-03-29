@@ -34,6 +34,9 @@ To start using the components in your project, Use CSS styles with ease, just by
 - [Toast](#toast)
 - [Navigation](#navigation)
 - [Slider](#slider)
+- [Rating](#rating)
+- [Modal](#modal)
+- [Grid-Simplified](#grid-simplified)
 
 ---
 
@@ -200,3 +203,33 @@ Have a look at the Website of Sakhi UI.
 ![Sakhi ui gif](Assets/gifs/sakhi_ui.gif)
 
 ---
+### week three assignment (added remaining components in CL)
+### Rating
+
+Ratings provide insight regarding others opinions and experiences, and also allow the user to submit a rating of their own. Ratings used in E-commerce sites.
+
+Find the following types of *Rating* on https://sakhi-ui.netlify.app/components/rating/rating
+
+- Basic Rating
+- customizing the rating component.
+
+---
+### Modal
+
+The modal component provides a solid foundation for creating dialogs, popovers, lightboxes or whatever else , which displays content that temporarily blocks interactions with the main view of a site.
+
+Find the following types of *Modal* on https://sakhi-ui.netlify.app/components/modal/modal
+
+- Simple Modal
+- Modal demo
+
+---
+### Grid-Simplified
+
+Grids are 2D(two-dimensional), it's represented in rows and columns.It's a powerful property which controls complex layouts on screen in a magically way and which is maintainable and easy to use.
+
+Find the following types of *Grid* on https://sakhi-ui.netlify.app/components/simplified-grid/simplified-grid
+
+- Grid-2: two items in a grid
+- Grid-3: three items
+- Responsive Grids.
