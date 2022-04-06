@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
     <link rel="stylesheet" href="/documentation/docs.css">
     <link rel="stylesheet" href="./../component.css">
+    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <title>Navigation component | Sakhi UI </title>
 </head>
 
@@ -75,18 +77,65 @@
                     <div>
                         <iframe src="https://www.thiscodeworks.com/embed/62138a9c11c4db00151a7e65" style="width: 100%; height: 229px;" frameborder="0"></iframe>
                     </div>
-                    <h3 class="component-desc">Simple navigation bar with menu icon for Mobile.</h3>
+                    <h2 class="component-heading">Navigation - Submenus</h2>
+                    <h3 class="component-desc">Simple navigation bar with submenu icon, where you find other list of menus when you click on Docs menu icon in below navigation component.</h3>
                     <div class="component-container">
-                        <div class=" nav-container wd-50-pc">
-                            <img src="/Assets/images/menu.png" alt="menu" class="menu-icon">
+                        <div class="nav-container wd-50-pc">
+                            <div class="home-lt-nav">
+                                <a href="#" class="title">Sakhi</a>
+                            </div>
+                            <div class="submenu-container">
+                                <button class="btn-submenu secondary-color btn-with-icon-submenu">
+									<span class="home-rt-nav">Docs</span>
+									<i class="fas fa-chevron-down icon-submenu"></i>
+								</button>
+                                <ul class="sub-menu">
+                                    <li class="list-item"><a href="#">Alert</a></li>
+                                    <li class="list-item"><a href="#">Avatar</a></li>
+                                    <li class="list-item"><a href="#">Button</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/624d9d5faa32fe001510a197" style="width: 100%; height: 276px;" frameborder="0"></iframe>
+                    </div>
+                    <div class="modal-style">JavaScript</div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/624da277aa32fe001510a1a3" style="width: 100%; height: 255px;" frameborder="0"></iframe>
+                    </div>
+                    <h2 class="component-heading">Navigation - Hamburger</h2>
+                    <h3 class="component-desc">Navigation with Hamburger icon for Mobile, click on Hamburger icon to see how it works. </h3>
+                    <div class="component-container">
+                        <div class="nav-container wd-50-pc">
+                            <a href="#drawer-example" class="drawer-toggle" data-drawer-target="#drawer-example">
+                                <img src="/Assets/images/menu.png" alt="Hamburger-icon" class="Hamburger-icon">
+                            </a>
+
+                            <ul class="drawer" id="drawer-example">
+                                <div class="drawer-header">
+                                    <a href="#" class="title">Sakhi
+                                    <button type="button" class="btn-dismiss"></button></a>
+                                </div>
+                                <li class="list-item">
+                                    <a href="#" class="secondary-color">Home</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="secondary-color">Docs</a>
+                                </li>
+                                <li class="list-item"><a href="#" class="secondary-color"><i class="fab fa-github github-icon-sz"></i></a></li>
+                            </ul>
                             <ul class="home-rt-nav">
-                                <li><a href="#">Docs</a></li>
-                                <li><a href="#"><i class="fab fa-github github-icon-sz"></i></a></li>
+                                <li><a href="#">Home</a></li>
                             </ul>
                         </div>
                     </div>
                     <div>
-                        <iframe src="https://www.thiscodeworks.com/embed/62138ae911c4db00151a7e66" style="width: 100%; height: 177px;" frameborder="0"></iframe>
+                        <iframe src="https://www.thiscodeworks.com/embed/624da932aa32fe001510a1b1" style="width: 100%; height: 372px;" frameborder="0"></iframe>
+                    </div>
+                    <div class="modal-style">JavaScript</div>
+                    <div>
+                        <iframe src="https://www.thiscodeworks.com/embed/624da9a3aa32fe001510a1b2" style="width: 100%; height: 255px;" frameborder="0"></iframe>
                     </div>
                 </div>
                 <a href="#nav-bar" class="btn-float btn-float-fixed btn-float-size">
@@ -99,6 +148,8 @@
             </main>
         </div>
     </div>
+
+    <script src="./../Navigation/navigation.js"></script>
 </body>
 
 </html>

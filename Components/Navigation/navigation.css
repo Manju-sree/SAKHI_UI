@@ -9,6 +9,7 @@
     background-color: var(--white-color);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-size: 0.5rem;
+    position: relative;
 }
 
 .wd-50-pc {
@@ -16,11 +17,112 @@
 }
 
 
-/* menu in navigation */
+/* --SUBMENU--*/
 
-.menu-icon {
+.submenu-container {
+    position: relative;
+}
+
+.btn-submenu {
+    cursor: pointer;
+    border: none;
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.btn-with-icon-submenu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.list-item {
+    padding: 0.75em;
+    text-align: center;
+    border-bottom: 1px solid var(--success-color);
+    font-size: 1rem;
+}
+
+.list-item,
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.sub-menu {
+    padding: 2rem;
+    position: absolute;
+    background-color: var(--white-color);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.btn-sub-menu-active {
+    opacity: 1;
+    pointer-events: all;
+    font-size: larger;
+    line-height: 1rem;
+    color: var(--primary-color);
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+
+/* --Hamburger/DRAWER in navigation-- */
+
+.Hamburger-icon {
     width: 1.75rem;
     margin-left: 1rem;
     display: block;
     cursor: pointer;
+}
+
+.btn-dismiss {
+    background: transparent url(./../../Assets/images/cancel.png) center/1.1em auto no-repeat;
+    border: 1px solid transparent;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: -12rem;
+    position: absolute;
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+}
+
+.drawer {
+    width: fit-content;
+    height: 50vh;
+    text-align: center;
+    display: none;
+    padding: 2rem;
+    position: absolute;
+    background-color: var(--white-color);
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.drawer-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.drawer-header .btn-dismiss {
+    height: 100%;
+    margin-left: auto;
+}
+
+.drawer.active {
+    display: block;
 }
