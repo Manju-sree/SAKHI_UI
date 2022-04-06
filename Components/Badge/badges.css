@@ -27,8 +27,8 @@
 .txt-bdg {
     padding: 0.3rem 0.5rem;
     font-size: 0.65rem;
-    margin-top: -0.7rem;
-    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    margin-left: -1rem;
 }
 
 
@@ -40,8 +40,8 @@
 .txt-lr-bdg {
     padding: 0 0.5rem;
     font-size: 1.5rem;
-    margin-top: -1.25rem;
-    margin-left: -1rem;
+    margin-top: -1.15rem;
+    margin-left: -1.20rem;
 }
 
 
@@ -84,7 +84,7 @@
     padding: 0.2rem 0.6rem;
     font-size: 0.85rem;
     margin-top: -0.75rem;
-    margin-left: -0.75rem;
+    margin-left: -1rem;
 }
 
 .hide {
@@ -109,8 +109,8 @@
     padding: 0.4rem 0.3rem;
     font-size: 0.8rem;
     background-color: var(--error-text-color);
-    margin-top: -0.9rem;
-    margin-left: -0.625rem;
+    margin-top: -1rem;
+    margin-left: -1.1rem;
 }
 
 
