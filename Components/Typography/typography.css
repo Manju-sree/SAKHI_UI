@@ -49,3 +49,27 @@
 .line-space h6 {
     line-height: 1.5rem;
 }
+
+.h1-fs {
+    font-size: 3rem;
+}
+
+.h2-fs {
+    font-size: 2.5rem;
+}
+
+.h3-fs {
+    font-size: 2rem;
+}
+
+.h4-fs {
+    font-size: 1.5rem;
+}
+
+.h5-fs {
+    font-size: 1rem;
+}
+
+.h6-fs {
+    font-size: 0.75rem;
+}
