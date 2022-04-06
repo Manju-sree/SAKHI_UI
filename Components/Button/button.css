@@ -18,7 +18,7 @@
 
 .btn-solid {
     border: none;
-    color: #ffffff;
+    color: var(--white-color);
     padding: 15px 32px;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .hover-button {
-    background-color: #f737bd;
+    background-color: var(--dark-secondary-color);
     border-radius: 5px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .active-button {
-    background-color: #f75565;
+    background-color: var(--ligth-red-color);
     border-radius: 5px;
 }
 
@@ -47,25 +47,25 @@
 }
 
 .disabled-button:hover {
-    background-color: #ece3e9;
+    background-color: var(--pinkish-white-color);
     cursor: no-drop;
 }
 
 .btn-outline {
-    background-color: #ffffff;
+    background-color: var(--white-color);
     padding: 15px 25px;
 }
 
 .primary-link-button {
-    border: 2px solid #000000;
-    color: #008000;
+    border: 2px solid var(--black-color);
+    color: var(--primary-color);
     text-decoration: underline;
     border-radius: 5px;
 }
 
 .secondary-link-button {
-    border: 2px solid #008000;
-    color: #000000;
+    border: 2px solid var(--primary-color);
+    color: var(--black-color);
     padding: 15px 45px;
     background-color: var(--secondary-hover);
     border-radius: 5px;
@@ -75,27 +75,27 @@
     background-color: var(--secondary-color);
     padding: 15px 15px;
     border-radius: 5px;
-    border: 1px solid #000000;
+    border: 1px solid var(--black-color);
 }
 
 .secondary-button-with-icon {
     background-color: var(--primary-color);
     padding: 8px 15px;
     border-radius: 5px;
-    border: 1px solid #000000;
+    border: 1px solid var(--black-color);
 }
 
 .float-btn {
     padding: 5px 15px;
     border-radius: 50%;
-    border: 1px solid #000000;
+    border: 1px solid var(--black-color);
     font-size: xx-large;
     cursor: pointer;
 }
 
 .add-button:hover {
     transform: scale(1.2, 1.2) translate3d(0, 0, 0);
-    background-color: #a3eb82;
+    background-color: var(--ligth-green-color);
 }
 
 .add-button {
@@ -103,30 +103,30 @@
 }
 
 .go-up-button {
-    background-color: var(--secondary-color);
+    background-color: var(--dark-secondary-color);
 }
 
 .go-up-button:hover {
     transform: scale(1.2, 1.2) translate3d(0, 0, 0);
-    background-color: #e48dca;
+    background-color: var(--secondary-color);
 }
 
 .remove-button {
-    background-color: #f75565;
+    background-color: var(--ligth-red-color);
     padding-top: 1px;
 }
 
 .remove-button:hover {
     transform: scale(1.2, 1.2) translate3d(0, 0, 0);
-    background-color: #ec969f;
+    background-color: var(--error-color);
 }
 
 .envelope-button {
-    background-color: #459bec;
+    background-color: var(--blue-color);
     padding: 5px 10px;
 }
 
 .envelope-button:hover {
     transform: scale(1.2, 1.2) translate3d(0, 0, 0);
-    background-color: #8cb3d8;
+    background-color: var(--light-blue-color);
 }

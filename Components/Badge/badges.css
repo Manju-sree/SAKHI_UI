@@ -2,14 +2,14 @@
     position: relative;
     font-size: 1.25rem;
     font-weight: 400;
-    color: #000000;
+    color: var(--black-color);
 }
 
 .badge-count {
     position: absolute;
     font-weight: bolder;
-    color: #ffffff;
-    background-color: #5858e4;
+    color: var(--white-color);
+    background-color: var(--primary-color);
     border-radius: 2rem;
 }
 
@@ -51,21 +51,21 @@
 /* badge3:Button with a badge on the left */
 
 .btn-left-bdg {
-    background-color: #5858e4;
+    background-color: var(--primary-color);
     padding: 0.5rem 1.25rem;
-    color: #ffffff;
+    color: var(--white-color);
     position: relative;
 }
 
 .btn-bdg {
     padding: 0.2rem 0.6rem;
     font-size: 0.9rem;
-    background-color: #f70fb1;
+    background-color: var(--dark-pink-color);
     margin-top: -0.9rem;
     margin-left: -5.5rem;
     border-radius: 2rem;
     position: absolute;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 
@@ -75,9 +75,9 @@
 /* badge4:Button toggles badge visibility */
 
 .btn-hide-bdg {
-    background-color: #f1ee1e;
+    background-color: var( --dark-yellow-color);
     padding: 0.625rem 0.9rem;
-    color: #000000;
+    color: var(--black-color);
 }
 
 .hide-bdg {
@@ -108,7 +108,7 @@
 .icon-bdg-cnt {
     padding: 0.4rem 0.3rem;
     font-size: 0.8rem;
-    background-color: #f02828;
+    background-color: var(--error-text-color);
     margin-top: -0.9rem;
     margin-left: -0.625rem;
 }
@@ -139,24 +139,24 @@
 .green-circle {
     padding: 0.7rem;
     border: 2px;
-    box-shadow: 0px 0px 0px 5px #f0f9ff;
-    background-color: #22c55e;
+    box-shadow: 0px 0px 0px 5px var(--light-white-color);
+    background-color: var(--dark-green-color);
 }
 
 .fa-moon {
     font-size: 1rem;
-    background-color: #f0f9ff;
-    box-shadow: 0px 0px 0px 5px #f0f9ff;
-    color: #f59e0b;
+    background-color: var(--light-white-color);
+    box-shadow: 0px 0px 0px 5px var(--light-white-color);
+    color: var(--dark-yellow-color);
 }
 
 .fa-mobile-alt {
     font-size: 1.5rem;
     border: 2px;
     border-radius: 0.2rem;
-    background-color: #f0f9ff;
-    box-shadow: 0px 0px 0px 3px #f0f9ff;
-    color: #22c55e;
+    background-color: var(--light-white-color);
+    box-shadow: 0px 0px 0px 3px var(--light-white-color);
+    color: var(--dark-green-color);
 }
 
 .dnd-icon {
@@ -164,6 +164,6 @@
     display: inline-block;
     height: 1.7rem;
     width: 1.7rem;
-    background-color: #f0f9ff;
-    box-shadow: 0px 0px 0px 2px #f0f9ff;
+    background-color: var(--light-white-color);
+    box-shadow: 0px 0px 0px 2px var(--light-white-color);
 }

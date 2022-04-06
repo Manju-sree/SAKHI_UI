@@ -35,7 +35,7 @@
 }
 
 .text-color-grey {
-    color: #808080;
+    color: var(--gray-color);
 }
 
 .line-space h1,

@@ -2,7 +2,7 @@
     padding: 1rem;
     background-color: var(--secondary-hover);
     border-radius: 5px;
-    color: black;
+    color: var(--black-color);
     font-size: 1rem;
     padding-right: 3rem;
 }
@@ -28,10 +28,9 @@
 
 .toast-body {
     padding: 15px 10px;
-    background-color: rgb(46, 43, 43);
-    color: white;
+    background-color: var(--light-black-color);
+    color: var(--white-color);
     border-radius: 5px;
-    box-shadow: 10px 12px 8px rgba(135, 26, 26, 0.25);
 }
 
 .toast-close-btn {
@@ -43,25 +42,21 @@
     padding: 0.9rem;
     margin-left: 1rem;
     margin-top: -1rem;
-    color: black;
+    color: var(--black-color);
     border-radius: 50%;
 }
 
 .toast-close-btn:hover {
-    background-color: rgb(216, 212, 212);
+    background-color: var(--light-white-color);
 }
 
 .retry-btn {
-    color: rgb(148, 92, 204);
+    color: var(--purple-color);
     font-weight: 600;
-    background-color: rgb(46, 43, 43);
+    background-color: var(--light-black-color);
     border-style: none;
     cursor: pointer;
     margin: 0 1rem;
-}
-
-.retry:hover {
-    background-color: hsla(0, 0%, 100%, 0.1);
 }
 
 .icon-toast {
@@ -71,5 +66,5 @@
 }
 
 .icon-toast:hover {
-    background-color: rgb(77, 74, 74);
+    background-color: var(--light-gray);
 }

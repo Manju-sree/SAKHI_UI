@@ -23,7 +23,7 @@
 .primary,
 .secondary,
 .secondary-outline {
-    color: black;
+    color: var(--black-color);
 }
 
 .primary {
@@ -73,5 +73,5 @@
 .success-outline,
 .Warning-outline,
 .Error-outline {
-    background-color: white;
+    background-color: var(--white-color);
 }

@@ -1,8 +1,8 @@
 .list-container {
     border-radius: 0.3rem;
-    background-color: #f7f5f5;
+    background-color: var(--light-white-color);
     padding: 1rem 2rem 1rem 2.5rem;
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
 }
 
 .styled-list {
@@ -29,13 +29,13 @@
 /* stacked list for notification */
 
 .stacked-list-container {
-    background-color: #f7f5f5;
+    background-color: var(--light-white-color);
     padding: 1rem 2rem 1rem 2.5rem;
     border-radius: 5px;
 }
 
 .stacked-list-wrapper {
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     border-radius: 5px;
     margin-top: 0em;
     margin-bottom: 0em;
