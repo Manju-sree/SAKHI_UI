@@ -31,6 +31,7 @@
     background-color: var(--light-black-color);
     color: var(--white-color);
     border-radius: 5px;
+    width: 26rem;
 }
 
 .toast-close-btn {
@@ -67,4 +68,9 @@
 
 .icon-toast:hover {
     background-color: var(--light-gray);
+}
+
+.baseline {
+    display: none;
+    bottom: 10%;
 }
