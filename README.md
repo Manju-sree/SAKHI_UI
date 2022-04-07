@@ -228,7 +228,7 @@ Find the following types of *Modal* on https://sakhi-ui.netlify.app/components/m
 
 Grids are 2D(two-dimensional), it's represented in rows and columns.It's a powerful property which controls complex layouts on screen in a magically way and which is maintainable and easy to use.
 
-Find the following types of *Grid* on https://sakhi-ui.netlify.app/components/simplified-grid/simplified-grid
+Find the following types of *Grid* on https://sakhi-ui.netlify.app/components/grid-simplified/simplified-grid
 
 - Grid-2: two items in a grid
 - Grid-3: three items
