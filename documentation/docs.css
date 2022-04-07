@@ -60,11 +60,37 @@
     grid-gap: 1.25rem;
     grid-template-columns: 1fr;
     margin-bottom: 1.5rem;
-    grid-template-areas: "nav nav nav nav""aside   main   main  ...""aside  main   main  ...""aside  main   main  ...""aside  main   main  ...";
+    grid-template-areas: "nav nav nav nav" "aside   main   main  ...";
 }
 
 nav {
     grid-area: nav;
+}
+
+
+/* floating icon */
+
+.btn-float {
+    padding: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--success-color);
+}
+
+.btn-float-size {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn-float-fixed {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
 }
 
 

@@ -52,7 +52,7 @@
     
     .badge-on-card {
         padding: 0.2rem 0.65rem;
-        color: white;
+        color: var(--white-color);
         font-size: .75em;
         line-height: 1;
         text-align: center;
@@ -152,7 +152,7 @@
     
     .primary-color-btn {
         background-color: var(--pink-color);
-        color: white;
+        color: var(--white-color);
     }
     
     .primary-color-btn:hover {
@@ -161,7 +161,7 @@
     
     .primary-color-btn .btn-icon {
         padding-right: 0.625rem;
-        color: white;
+        color: var(--white-color);
     }
     /* card with dismiss */
     
@@ -203,19 +203,19 @@
     }
     
     .text-overlay .text-container {
-        background-color: white;
+        background-color: var(--white-color);
     }
     
     .text-overlay-size {
         font-size: 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 600;
-        color: black;
+        color: var(--black-color);
     }
     /* card with shadow */
     
     .card-shadow {
-        box-shadow: 30px 5px 5px 10px rgb(0 0 0 / 5%);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     /* card horizontal */
     

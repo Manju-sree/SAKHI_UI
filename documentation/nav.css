@@ -6,7 +6,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    background-color: white;
+    background-color: var(--white-color);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 

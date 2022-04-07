@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
     <link rel="stylesheet" href="./docs.css">
     <link rel="stylesheet" href="/Components/component.css">
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Assets/favicon/site.webmanifest">
     <title>Documentation - Sakhi UI</title>
 </head>
 
 <body>
-    <div class="docs-container">
+    <div class="docs-container" id="nav-bar">
         <nav>
             <div class="home-lt-nav">
                 <a href="/index.html" class="title">Sakhi</a>
@@ -60,13 +65,13 @@
                     <h3 class="component-desc">Font size</h3>
                     <p class="component-desc ">Change the font-size of text by using HTML heading elements, so as the number (h1,h2,h3,h4,h5,h6) increases, their font-size decreases.</p>
                     <div class="component-container">
-                        <div class="display-flex-column  ">
-                            <h1>H1-Heading</h1>
-                            <h2>H2-Heading</h2>
-                            <h3>H3-Heading</h3>
-                            <h4>H4-Heading</h4>
-                            <h5>H5-Heading</h5>
-                            <h6>H6-Heading</h6>
+                        <div class="display-flex-column line-space ">
+                            <div class="h1-fs">H1-Heading</div>
+                            <div class="h2-fs">H2-Heading</div>
+                            <div class="h3-fs">H3-Heading</div>
+                            <div class="h4-fs">H4-Heading</div>
+                            <div class="h5-fs">H5-Heading</div>
+                            <div class="h6-fs">H6-Heading</div>
                         </div>
                     </div>
                     <div>
@@ -103,6 +108,9 @@
                         <iframe src="https://www.thiscodeworks.com/embed/62015eabed723a001551c013" style="width: 100%; height: 150px;" frameborder="0"></iframe>
                     </div>
                 </div>
+                <a href="#nav-bar" class="btn-float btn-float-fixed btn-float-size">
+                    <i class="fas fa-arrow-up"> </i>
+                </a>
                 <footer class="footer">
                     <a href="/index.html" class="link">Home</a>
                     <a href="/Components/Avatar/avatar.html" class="link">Avatar</a>

@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
     <link rel="stylesheet" href="/documentation/docs.css">
     <link rel="stylesheet" href="./../component.css">
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Assets/favicon/site.webmanifest">
     <title>Toast component | Sakhi UI </title>
 </head>
 
 <body>
-    <div class="docs-container">
+    <div class="docs-container" id="nav-bar">
         <nav>
             <div class="home-lt-nav">
                 <a href="./../../index.html" class="title">Sakhi</a>
@@ -79,19 +84,35 @@
                     </div>
                     <h2 class="component-heading " id="avatar ">Example of Toast</h2>
                     <p class="component-desc "> Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.</p>
-                    <div class="component-container ">
+                    <div class="component-container">
                         <div class="toast-body">
                             Can't send photos. Retry in 5 seconds.
                             <button class="retry-btn">RETRY</button>
                             <span class="icon-toast">
-                            <i class="fas fa-times"></i>
-                        </span>
+                                <i class="fas fa-times toast-close-icon"></i>
+                            </span>
                         </div>
+                    </div>
+                    <p class="component-desc "> Click on below button to see functional toast.</p>
+                    <div class="component-container">
+                        <button class="btn primary-button btn-solid primary-color-bg demo-toast-button">
+                                    Click-Me
+                                </button>
+                    </div>
+                    <div class="toast-body baseline">
+                        Can't send photos. Retry in 5 seconds.
+                        <button class="retry-btn">RETRY</button>
+                        <span class="icon-toast">
+                            <i class="fas fa-times toast-close-icon"></i>
+                        </span>
                     </div>
                     <div>
                         <iframe src="https://www.thiscodeworks.com/embed/62037b93234b8a0015700c85" style="width: 100%; height: 200px;" frameborder="0"></iframe>
                     </div>
                 </div>
+                <a href="#nav-bar" class="btn-float btn-float-fixed btn-float-size">
+                    <i class="fas fa-arrow-up"> </i>
+                </a>
                 <footer class="footer">
                     <a href="/Components/Lists/lists.html" class="link">Lists</a>
                     <a href="/Components/Navigation/navigation.html" class="link">Navigation</a>
@@ -99,6 +120,7 @@
             </main>
         </div>
     </div>
+    <script src="./../Toast/toast.js"></script>
 </body>
 
 </html>

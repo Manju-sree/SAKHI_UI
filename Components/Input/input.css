@@ -13,7 +13,7 @@
 .input-textbox {
     font-weight: bold;
     border-radius: 0.4rem;
-    border: 2px solid #2e3333;
+    border: 2px solid var(--dark-gray);
     padding: 1rem;
     color: var(--secondary-color);
 }
@@ -31,11 +31,11 @@
 .input-valid-textbox,
 .valid-text,
 .valid-msg {
-    color: #249c24;
+    color: var(--primary-color);
 }
 
 .input-valid-textbox {
-    border: 1px solid #249c24;
+    border: 1px solid var(--primary-color);
 }
 
 .input-valid-textbox,
@@ -55,11 +55,11 @@
 .input-error-textbox,
 .error-text,
 .error-msg {
-    color: #d31d1d;
+    color: var(--error-text-color);
 }
 
 .input-error-textbox {
-    border: 1px solid #d31d1d;
+    border: 1px solid var(--error-text-color);
 }
 
 .valid-msg,

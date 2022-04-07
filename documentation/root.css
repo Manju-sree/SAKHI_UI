@@ -11,8 +11,11 @@
     --primary-color: #64d131;
     --primary-hover: #0c2f31;
     --secondary-color: #f368c9;
+    --dark-secondary-color: #f737bd;
     --secondary-hover: #E5E7EB;
+    --gray-color: #808080;
     --light-gray: #4b5563;
+    --dark-gray: #2e3333;
     --success-color: #1b7052;
     --warning-color: #f8e964;
     --dark-yellow-color: #f5dd08;
@@ -20,6 +23,7 @@
     --error-color: #f57a7a;
     --error-text-color: #f1152b;
     --ligth-green-color: #70f764;
+    --dark-green-color: #22c55e;
     --ligth-red-color: #ec5752;
     --light-yellow-color: #f8bb64;
     --pink-color: #ff3f6c;
@@ -27,7 +31,13 @@
     --lightest-pink-color: #fcc0ce;
     --dark-pink-color: #e63961;
     --white-color: #fff;
+    --pinkish-white-color: #ece3e9;
     --light-white-color: #f7f5f5;
+    --black-color: #000;
+    --blue-color: #459bec;
+    --light-blue-color: #8cb3d8;
+    --light-black-color: rgb(46, 43, 43);
+    --purple-color: rgb(148, 92, 204);
 }
 
 .white-color-bg {
@@ -44,6 +54,10 @@
 
 .primary-color-bg {
     background-color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
 }
 
 .secondary-color-bg {
@@ -158,7 +172,7 @@ body {
         display: none;
     }
     .docs-container {
-        grid-template-areas: 'nav''main';
+        grid-template-areas: 'nav' 'main';
         bottom: 0rem;
     }
 }
@@ -176,7 +190,7 @@ body {
         margin-bottom: 0rem;
     }
     .docs-container {
-        grid-template-areas: 'nav''main';
+        grid-template-areas: 'nav' 'main';
         bottom: 0rem;
     }
 }
@@ -193,7 +207,7 @@ body {
         margin-left: -6rem;
     }
     .docs-container {
-        grid-template-areas: 'nav''main';
+        grid-template-areas: 'nav' 'main';
         bottom: 0rem;
     }
 }
