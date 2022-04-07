@@ -169,7 +169,6 @@ Find the following types of *Toasts* on https://sakhi-ui.netlify.app/components/
 - Error toast
 - Success toast
 - warning toast
-- Functional Baseline Toast
 
 ---
 
@@ -180,8 +179,7 @@ A navigation bar is a user interface element within a webpage that contains link
 Find the following types of *Navigation* on https://sakhi-ui.netlify.app/components/navigation/navigation
 
 - Simple Desktop navigation bar
-- Navigation - Submenus
-- Mobile navigation bar with Hamburger
+- Mobile navigation bar with menu icon
 
 ---
 
@@ -235,3 +233,19 @@ Find the following types of *Grid* on https://sakhi-ui.netlify.app/components/si
 - Grid-2: two items in a grid
 - Grid-3: three items
 - Responsive Grids.
+
+---
+
+### Toast
+- Functional Baseline Toast
+
+---
+
+### Navigation
+
+A navigation bar is a user interface element within a webpage that contains links to other sections of the website.
+
+Find the following types of *Navigation* on https://sakhi-ui.netlify.app/components/navigation/navigation
+
+- Navigation - Submenus
+- Mobile navigation bar with Hamburger
