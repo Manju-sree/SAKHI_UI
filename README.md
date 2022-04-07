@@ -46,7 +46,7 @@ Have a look at the Website of Sakhi UI.
 
 </div>
 
-![Sakhi ui gif](Assets/gifs/sakhi_ui.gif)
+![Sakhi ui gif](Assets/gifs/sakhi_ui_p1_p2.gif)
 
 ---
 ### week three assignment (added remaining components in CL and added favicon,scroll to top icon in each page)
